@@ -39,7 +39,7 @@ export default function Navbar() {
                   <NavLink to="/" exact>
                     <img
                       src={Logo} 
-                      style={{width: 200, height: 30 }} 
+                      style={{width: 250, height: 60 }} 
                       alt="logo"
                     />
                   </NavLink>
@@ -52,7 +52,7 @@ export default function Navbar() {
                         href={item.href}
                         className={classNames(
                           item.current ? 'nav-link bg-gray-900 text-white' : 'nav-link text-gray-900 hover:bg-gray-700 hover:text-white',
-                          'px-3 py-2 rounded-md text-sm font-medium'
+                          'px-3 py-2 rounded-md font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
