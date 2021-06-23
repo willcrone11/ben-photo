@@ -1,6 +1,7 @@
 import { Disclosure } from '@headlessui/react'
 import Logo from '../img/ben-photo-logo.png';
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { NavLink } from 'react-router-dom';
 
 const navigation = [
   { name: 'Home', href: '/', current: false },
@@ -35,8 +36,13 @@ export default function Navbar() {
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    src={Logo} style={{width: 150, height: 60 }} alt="logo"/>
+                  <NavLink to="/" exact>
+                    <img
+                      src={Logo} 
+                      style={{width: 150, height: 60 }} 
+                      alt="logo"
+                    />
+                  </NavLink>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
