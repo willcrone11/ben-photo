@@ -88,14 +88,14 @@ export default function Navbar() {
               <div className="hidden sm:block sm:ml-10">
                 <SocialIcon 
                   url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                  className="mr-4" 
+                  className="icon mr-4" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35 }}
                 />
                 <SocialIcon
                   url="https://www.facebook.com/benjaminbrittonphotography" 
-                  className="mr-4" 
+                  className="icon mr-4" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35, float: 'right' }}
@@ -154,11 +154,13 @@ export default function Navbar() {
               >
                 Contact
               </NavLink>
+              <br/>
+              <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
               <div style={{textAlign: "center"}}>
-                <p>Find us on...</p><br/>
+                <p className="m-2">Find us on</p>
                 <SocialIcon 
                   url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                  className="mr-4" 
+                  className="icon mr-4" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35 }}
@@ -167,6 +169,7 @@ export default function Navbar() {
                   url="https://www.facebook.com/benjaminbrittonphotography" 
                   target="_blank" 
                   fgColor="#fff" 
+                  className="icon"
                   style={{ height: 35, width: 35 }}
                 />
               </div>

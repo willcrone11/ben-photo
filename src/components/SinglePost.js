@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import sanityClient from '../client';
 import imageUrlBuilder from '@sanity/image-url';
 import BlockContent from '@sanity/block-content-to-react';
+import dayjs from 'dayjs';
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -26,6 +27,7 @@ export default function SinglePost() {
           }
         },
         body,
+        publishedAt,
         "name": author->name,
         "authorImage": author->image
       }`)
@@ -40,10 +42,11 @@ export default function SinglePost() {
       <article className="container shadow-lg mx-auto bg-gray-100 rounded-lg">
         <header className="relative">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
-            <div className="bg-white bg-opacity-75 rounded p-12">
+            <div className="bg-white bg-opacity-90 rounded p-12">
               <h1 className="cursive text-3xl lg:text-6xl mb-4">
                 {singlePost.title}
               </h1>
+              <br/>
               <div className="flex justify-center text-gray-800">
                 <img 
                   src={urlFor(singlePost.authorImage).url()}
@@ -52,6 +55,12 @@ export default function SinglePost() {
                   />
                 <p className="cursive flex items-center pl-2 text-2xl">
                   {singlePost.name}
+                </p>
+              </div>
+              <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+              <div className="flex justify-center text-gray-800">
+                <p className="cursive flex items-center pl-2 text-1xl">
+                  {dayjs(singlePost.publishedAt).format('MMMM DD YYYY')}
                 </p>
               </div>
             </div>
