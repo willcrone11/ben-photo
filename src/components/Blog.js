@@ -1,5 +1,6 @@
 import React from 'react';
+import Post from './Post'
 
 export default function Blog() {
-  return <h1>Blog!</h1>
+  return <Post/>
 }

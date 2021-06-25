@@ -2,6 +2,7 @@ import { Disclosure } from '@headlessui/react'
 import Logo from '../img/ben-photo-logo.png';
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { NavLink } from 'react-router-dom';
+import { SocialIcon } from 'react-social-icons';
 
 export default function Navbar() {
   return (
@@ -84,6 +85,22 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
+              <div className="hidden sm:block sm:ml-10">
+                <SocialIcon 
+                  url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
+                  className="mr-4" 
+                  target="_blank" 
+                  fgColor="#fff" 
+                  style={{ height: 35, width: 35 }}
+                />
+                <SocialIcon
+                  url="https://www.facebook.com/benjaminbrittonphotography" 
+                  className="mr-4" 
+                  target="_blank" 
+                  fgColor="#fff" 
+                  style={{ height: 35, width: 35, float: 'right' }}
+                />
+              </div>
             </div>
           </div>
 
@@ -137,6 +154,22 @@ export default function Navbar() {
               >
                 Contact
               </NavLink>
+              <div style={{textAlign: "center"}}>
+                <p>Find us on...</p><br/>
+                <SocialIcon 
+                  url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
+                  className="mr-4" 
+                  target="_blank" 
+                  fgColor="#fff" 
+                  style={{ height: 35, width: 35 }}
+                />
+                <SocialIcon
+                  url="https://www.facebook.com/benjaminbrittonphotography" 
+                  target="_blank" 
+                  fgColor="#fff" 
+                  style={{ height: 35, width: 35 }}
+                />
+              </div>
             </div>
           </Disclosure.Panel>
         </>
