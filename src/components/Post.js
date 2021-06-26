@@ -23,14 +23,14 @@ export default function Post() {
   });
 
   return (
-    <main className="bg-gray-200 min-h-screen p-12"> 
+    <main className="bg-gray-100 min-h-screen p-12"> 
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">Blog Posts</h1>
         <br/>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my Blog!</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
-            <article>
+            <article className="transition duration-500 ease-in-out transform hover:scale-110">
               <Link 
                 to={"/post/" + post.slug.current} 
                 key={post.slug.current}

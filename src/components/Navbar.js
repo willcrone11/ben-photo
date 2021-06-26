@@ -37,7 +37,7 @@ export default function Navbar() {
                     <NavLink
                       to="/"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       Home
@@ -45,7 +45,7 @@ export default function Navbar() {
                     <NavLink
                       to="/about"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       About
@@ -53,7 +53,7 @@ export default function Navbar() {
                     <NavLink
                       to="/pricing"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       Pricing
@@ -61,7 +61,7 @@ export default function Navbar() {
                     <NavLink
                       to="/portfolio"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       Portfolio
@@ -69,7 +69,7 @@ export default function Navbar() {
                     <NavLink
                       to="/blog"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       Blog
@@ -77,7 +77,7 @@ export default function Navbar() {
                     <NavLink
                       to="/contact"
                       exact
-                      className="nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                      className="transition duration-500 ease-in-out transform hover:scale-110 nav-link text-gray-900 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
                       activeClassName="underline"
                     >
                       Contact
@@ -88,14 +88,14 @@ export default function Navbar() {
               <div className="hidden sm:block sm:ml-10">
                 <SocialIcon 
                   url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                  className="icon mr-4" 
+                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-150" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35 }}
                 />
                 <SocialIcon
                   url="https://www.facebook.com/benjaminbrittonphotography" 
-                  className="icon mr-4" 
+                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-150" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35, float: 'right' }}
