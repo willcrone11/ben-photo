@@ -3,6 +3,8 @@ import sanityClient from '../client';
 import imageUrlBuilder from '@sanity/image-url';
 import beachLove from '../img/beach-love.jpeg';
 import benSideView from '../img/ben-sideview.png';
+import loversLying from '../img/lovers-lying.jpeg';
+import cakeKiss from '../img/cake-kiss.jpeg';
 import { NavLink } from 'react-router-dom';
 
 const builder = imageUrlBuilder(sanityClient);
@@ -52,12 +54,12 @@ export default function About() {
           </div>
         </section>
         <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-10 p-5 mt-10 lg:flex">
-          <div className="prose lg:text-2xl text-center content-center items-center">
+          <div className="prose lg:text-2xl content-center items-center ml-5">
             <h1 className="text-5xl">
               Some ways to describe myself...
             </h1>
             <br/><br/>
-            <ul>
+            <ul className="list-disc lg:ml-8">
               <li>Wanderer</li>
               <li>Saver-of-the planet</li>
               <li>Coffee enthusiast</li>
@@ -92,13 +94,13 @@ export default function About() {
               Synonyms: Off-beat, Curious, just Weird! 
             </p>
             <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
-            <p className="lg:text-2xl text-xl">
+            <p className="lg:text-2xl text-xl text-center">
               Over the years, I have grown to accept the quirkiness I bring to the table, if not to make others laugh, to give myself a good smile. 
             </p>
           </div>
         </section>
           <div className="lg:m-32 m-14">
-            <p className="text-5xl content-center items-center text-center">
+            <p className="lg:text-7xl text-5xl content-center items-center text-center">
               When it comes to my work...
             </p>
             <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
@@ -126,11 +128,11 @@ export default function About() {
           />
           <div className="lg:p-32">
             <div className="text-4xl lg:flex lg:content-center lg:items-center text-center">
-              From the connections I make,
+              From the connections i make,
               <br/><br/>
-              to the intimate moments I capture,
+              to the intimate moments i capture,
               <br/><br/>
-              to the smiles I simply can't help but make while I edit the images...
+              to the smiles i can't help but make while i edit the images...
             </div>
             <br/><br/><br/>
             <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
@@ -144,18 +146,34 @@ export default function About() {
         <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
           <div>
             <p className="lg:text-4xl text-xl lg:content-center lg:items-center text-center">
-            If you think my team and I would be a good fit for your big day,
+            if you think my team and i would be a good fit for your big day,
             engagement session, or "just for fun" pictures, shoot me a message
             by clicking the button below and we'll get started on planning your adventure! 
             </p>
             <br/><br/>
             <div className="lg:content-center lg:items-center text-2xl text-center mt-5 mb-5">
-              <NavLink 
-                to="/contact" 
-                className="hover:opacity-75 bg-blue-500 text-white p-5"
-              >
-                Let's Chat!
-              </NavLink>
+              <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-2xl text-center mt-5 mb-5">
+                <NavLink 
+                  to="/contact" 
+                  className="animate-pulse bg-blue-500 text-white p-5"
+                >
+                  Let's Chat!
+                </NavLink>
+                <br/><br/>
+              </div>
+            </div>
+            <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+            <div className="lg:flex items-center content-center justify-center lg:m-5 mb-12">
+              <img 
+                src={loversLying}
+                alt="Lovers Lying"
+                className="lg:flex items-center content-center justify-center lg:m-5 mb-4 lg:w-3/5 lg:h-3/5"
+              />
+              <img 
+                src={cakeKiss}
+                alt="Cake Kiss"
+                className="lg:flex items-center content-center justify-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5"
+              />
             </div>
           </div>
         </section>

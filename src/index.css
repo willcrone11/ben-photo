@@ -8,14 +8,15 @@ body {
   font-family: 'Mate SC', serif;
 }
 
+.contact-background {
+  background-image: url(./img/behind-hug.jpeg);
+  background-size: cover;
+}
+
 .prose img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-}
-
-.home-name {
-  font-size: 150px;
 }
 
 .nav-link {
