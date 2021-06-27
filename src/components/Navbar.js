@@ -6,7 +6,7 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="sticky top-0 z-50 bg-white bg-opacity-75">
+    <Disclosure as="nav" className="sticky top-0 z-50 bg-white bg-opacity-90">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -103,7 +103,6 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <NavLink

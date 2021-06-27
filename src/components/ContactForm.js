@@ -5,11 +5,12 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Sending...");
-    const { name, partnerName, preferDate, email, message } = e.target.elements;
+    const { name, partnerName, preferDate, session, email, message } = e.target.elements;
     let details = {
       name: name.value,
       partnerName: partnerName.value,
       preferDate: preferDate.value,
+      session: session.value,
       email: email.value,
       message: message.value,
     };
@@ -30,7 +31,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
     >
       <div className="lg:ml-60 ml-4 lg:mr-60 mr-4 bg-gray-200 ">
-        <div className="lg:p-5 lg:m-5">
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             htmlFor="name"
             className="lg:mr-4"
@@ -38,8 +39,8 @@ const ContactForm = () => {
             Name:
           </label><br/><br/>
           <input type="text" id="name" required />
-        </div><br/>
-        <div className="lg:p-5 lg:m-5">
+        </div>
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             htmlFor="partnerName"
             className="lg:mr-4"
@@ -47,8 +48,8 @@ const ContactForm = () => {
             Partner Name:
           </label><br/><br/>
           <input type="text" id="partnerName" required />
-        </div><br/>
-        <div className="lg:p-5 lg:m-5">
+        </div>
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             htmlFor="preferDate"
             className="lg:mr-4"
@@ -56,23 +57,39 @@ const ContactForm = () => {
             Preferred Date:
           </label><br/><br/>
           <input type="date" id="preferDate" required />
-        </div><br/>
-        <div className="lg:p-5 lg:m-5">
+        </div>
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             htmlFor="email"
             className="lg:mr-4"
-            >Email:
+            >
+              Email:
           </label><br/><br/>
           <input type="email" id="email" required />
-        </div><br/>
-        <div className="lg:p-5 lg:m-5">
+        </div>
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
+          <label 
+            htmlFor="session"
+            className="lg:mr-4"
+            >
+              Type of Session:
+          </label><br/><br/>
+          <select id="session" required>
+            <option value="Wedding">Wedding</option>
+            <option value="Engagement">Engagement</option>
+            <option value="Couples">Couples</option>
+          </select>
+        </div>
+        <div className="lg:p-5 p-1 lg:m-5 m-1">
           <label 
             htmlFor="message"
             className="lg:mr-4"
           >
             Message:
-          </label><br/>
-          <p className="text-xs">Drop any questions or concerns, or just say hello!</p>
+          </label>
+          <p className="text-xs">
+            Drop any questions or concerns, or just say hello!
+          </p>
           <br/>
           <textarea id="message" required />
         </div>

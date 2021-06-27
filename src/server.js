@@ -31,6 +31,7 @@ router.post("/contact", (req, res) => {
   const name = req.body.name;
   const partnerName = req.body.partnerName;
   const preferDate = req.body.preferDate;
+  const session = req.body.session;
   const email = req.body.email;
   const message = req.body.message; 
   const mail = {
@@ -40,6 +41,7 @@ router.post("/contact", (req, res) => {
     html: `<p>Name: ${name}</p>
           <p>Partner Name: ${partnerName}</p>
           <p>Preferred Date: ${preferDate}</p>
+          <p>Type of Session: ${session}</p>
           <p>Email: ${email}</p>
           <p>Message: ${message}</p>`,
   };
