@@ -23,7 +23,7 @@ export default function Post() {
   });
 
   return (
-    <main className="bg-gray-100 min-h-screen p-12"> 
+    <main className="bg-gray-100 min-h-screen lg:p-12 p-6"> 
       <section className="container mx-auto">
         <h1 className="text-5xl flex justify-center cursive">Blog Posts</h1>
         <br/>

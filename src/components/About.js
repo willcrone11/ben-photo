@@ -29,11 +29,11 @@ export default function About() {
 
   return (
     <main className="relative bg-gray-100">
-      <div className="p-10 container mx-auto relative">
+      <div className="lg:p-10 p-1 container mx-auto relative">
         <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
           <img
             src={urlFor(author.authorImage).url()}
-            className="rounded w-80 h-auto lg:w-80 lg:auto"
+            className="rounded lg:w-80 lg:auto"
             alt={author.name}
           />
           <div className="text-lg flex flex-col justify-center lg:ml-28 ">
@@ -47,18 +47,19 @@ export default function About() {
               I can’t wait to meet you! 
               But first, here's a little about me… 
             </p>
-            <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce h-12 w-12 lg:ml-72 lg:mt-20 mt-16 ml-24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 17l-4 4m0 0l-4-4m4 4V3" />
-            </svg>
+            <div className="flex content-center items-center text-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce h-12 w-12 lg:mt-20 mt-16" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+              </svg>
+            </div>
           </div>
         </section>
         <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-10 p-5 mt-10 lg:flex">
-          <div className="prose lg:text-2xl content-center items-center">
-            <h1 className="lg:text-5xl text-2xl">
+          <div className="prose lg:text-3xl text-xl content-center items-center">
+            <h1 className="lg:text-5xl text-3xl">
               Some ways to describe myself...
             </h1>
-            <hr style={{ borderTop: "solid black 1px" }} className="mt-3" />
-            <br/><br/>
+            <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
             <ul className="list-disc lg:ml-8 ml-5">
               <li>Wanderer</li>
               <li>Saver-of-the planet</li>
@@ -107,7 +108,7 @@ export default function About() {
           </div>
         <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
           <div className="lg:flex lg:p-5">
-            <p className="lg:text-3xl text-xl lg:content-center lg:items-center lg:text-left text-center">
+            <p className="lg:text-3xl text-xl lg:content-center lg:items-center text-left">
               You know that feeling you get after watching a Disney love story 
               come full-circle? to me, that has always been an irresistible high 
               and my why to what i do.
@@ -134,10 +135,10 @@ export default function About() {
           <img 
             src={beachLove}
             alt="Beach Love"
-            className="items-center content-center lg:m-5 lg:mt-28 mb-4 lg:w-2/5 lg:h-2/5"
+            className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5"
           />
-          <div className="lg:p-32">
-            <div className="lg:text-3xl text-xl lg:flex lg:content-center lg:items-center lg:text-right text-center">
+          <div className="lg:p-16">
+            <div className="lg:text-4xl text-xl lg:flex lg:content-center lg:items-center text-center">
               <p>
                 Among everything that makes me me, the enjoyment in documenting 
                 love stories is one of my favorites.
