@@ -6,6 +6,7 @@ import pillowFight from '../img/pillow-fight.jpeg'
 import fieldLove from '../img/field-love.jpeg';
 import loversLying from '../img/lovers-lying.jpeg';
 import { NavLink } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import { SocialIcon } from 'react-social-icons';
 import ContactForm from './ContactForm';
 import FadeInSection from './FadeInSection';
@@ -160,12 +161,12 @@ export default function HomeInfo() {
                     Starting at <span className="text-blue-800">$175/hr</span>
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <NavLink 
-                      to="/pricing" 
+                    <Link 
+                      to="/pricing#weddings" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                     >
                       Learn More
-                    </NavLink>
+                    </Link>
                   </div>
                 </div>
                 <div>
@@ -182,12 +183,12 @@ export default function HomeInfo() {
                     <span className="text-blue-800">FREE</span> when you book a wedding
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <NavLink 
-                      to="/pricing" 
+                    <Link 
+                      to="/pricing#engagements" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                     >
                       Learn More
-                    </NavLink>
+                    </Link>
                   </div>
                 </div>
                 <div>
@@ -204,12 +205,12 @@ export default function HomeInfo() {
                     Starting at <span className="text-blue-800">$150</span>
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <NavLink 
-                      to="/pricing" 
+                    <Link 
+                      to="/pricing#couples" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                     >
                       Learn More
-                    </NavLink>
+                    </Link>
                   </div>
                 </div>
               </div>
