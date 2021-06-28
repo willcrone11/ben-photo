@@ -32,7 +32,7 @@ export default function Navbar() {
                     />
                   </NavLink>
                 </div>
-                <div className="hidden sm:block sm:ml-10">
+                <div className="lg:block hidden md:block sm:block sm:ml-10">
                   <div className="flex space-x-4">
                     <NavLink
                       to="/"
@@ -85,7 +85,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-              <div className="hidden sm:block sm:ml-10">
+              <div className="lg:block hidden md:hidden sm:hidden sm:ml-10">
                 <SocialIcon 
                   url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
                   className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-150" 
@@ -103,7 +103,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <Disclosure.Panel className="sm:hidden">
+          <Disclosure.Panel className="sm:hidden md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <NavLink
                 to="/"

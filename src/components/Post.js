@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import sanityClient from '../client';
 import { Link } from 'react-router-dom';
+import FadeInSection from './FadeInSection';
 
 export default function Post() {
   const [postData, setPost] = useState(null);
@@ -25,8 +26,12 @@ export default function Post() {
   return (
     <main className="bg-gray-100 min-h-screen lg:p-12 p-6"> 
       <section className="container mx-auto">
-        <h1 className="text-5xl flex justify-center cursive">Blog Posts</h1>
-        <br/>
+        <FadeInSection>
+          <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+            Blog Posts
+          </h1>
+          <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
+        </FadeInSection>
         <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my Blog!</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
