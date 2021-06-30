@@ -5,6 +5,9 @@ import cakeKiss from '../img/cake-kiss.jpeg';
 import walkingLovers from '../img/walking-lovers.jpeg';
 import holdingHands from '../img/holding-hands.jpeg';
 import fallLovers from '../img/fall-lovers.jpeg';
+import behindKiss from '../img/behind-kiss.png';
+import loversBlanket from '../img/lovers-blanket.png';
+import loversHeadTouch from '../img/lovers-head-touch.png';
 import FadeInSection from './FadeInSection';
 
 export default function Pricing() {
@@ -20,11 +23,11 @@ export default function Pricing() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="lg:flex">
-              <div className="flex-column">
+              <div className="flex-column lg:p-8">
                 <h1 className="lg:text-6xl text-4xl">
                   Ok, the details...
                 </h1>
-                <p className="lg:text-3xl text-xl p-6">
+                <p className="lg:text-3xl text-xl lg:p-6 mt-3">
                   Before you ask me to be your third wheel, you probably want to know what 
                   you’re getting and for how much!
                   <br/><br/>
@@ -41,13 +44,13 @@ export default function Pricing() {
                         </NavLink>
                       </span> 
                 </p>
-                <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-16 mt-5" />
+                <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-3 mt-5" />
                 <div className="content-center items-center justify-center text-center lg:ml-6 pt-4">
-                  <h1 className="text-5xl">
+                  <h1 className="lg:text-5xl text-3xl">
                     Jump to...
                   </h1>
                 </div>
-                <div className="lg:flex md:flex content-center items-center justify-center m-10">
+                <div className="lg:flex md:flex content-center items-center justify-center lg:p-3">
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
@@ -59,7 +62,7 @@ export default function Pricing() {
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
-                      className="text-xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="text-xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-6"
                     >
                       Engagements
                     </Link>
@@ -85,7 +88,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="weddings" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section id="weddings" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
             <div className="lg:flex">
               <div className="flex-column">
                 <img 
@@ -93,14 +96,19 @@ export default function Pricing() {
                   alt="Walking Lovers"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
+                <img 
+                  src={loversHeadTouch}
+                  alt="Wedding Sweethearts"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
               </div>
-              <div className="flex-column lg:p-16">
+              <div className="flex-column lg:p-14">
                 <h1 className="lg:text-6xl text-4xl text-center">
                   The Wedding Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                 <div className="lg:flex">
-                  <div className="flex-column text-center lg:p-8 p-8">
+                  <div className="flex-column text-center p-4">
                     <h3 className="lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
@@ -109,14 +117,14 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>Up to 4 hours of coverage</li>
-                      <li>2 Photographers</li>
-                      <li>Personal Online Gallery</li>
-                      <li>Free Consultation</li>
-                      <li>Polaroids of Your Day</li>
+                      <li>Up to 4 hours of coverage</li><br/>
+                      <li>2 Photographers</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>Free Consultation</li><br/>
+                      <li>Polaroids of Your Day</li><br/>
                     </ul>
                   </div>
-                  <div className="flex-column text-center p-8">
+                  <div className="flex-column text-center p-4">
                     <h3 className="lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
@@ -125,15 +133,15 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>Up to 8 hours of coverage</li>
-                      <li>2 Photographers</li>
-                      <li>Personal Online Gallery</li>
-                      <li>Free Consultation</li>
-                      <li>Polaroids of Your Day</li>
-                      <li>Free Engagement Session</li>
+                      <li>Up to 8 hours of coverage</li><br/>
+                      <li>2 Photographers</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>Free Consultation</li><br/>
+                      <li>Polaroids of Your Day</li><br/>
+                      <li>Free Engagement Session</li><br/>
                     </ul>
                   </div>
-                  <div className="flex-column text-center p-8">
+                  <div className="flex-column text-center p-4">
                     <h3 className="lg:text-4xl text-3xl font-bold">
                       Pack 3
                     </h3>
@@ -142,13 +150,13 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>Up to 10 hours of coverage</li>
-                      <li>2 Photographers</li>
-                      <li>Personal Online Gallery</li>
-                      <li>Free Consultation</li>
-                      <li>Polaroids of Your Day</li>
-                      <li>Free Engagement Session</li>
-                      <li>30% Off Your Next Booked Couples Session</li>
+                      <li>Up to 10 hours of coverage</li><br/>
+                      <li>2 Photographers</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>Free Consultation</li><br/>
+                      <li>Polaroids of Your Day</li><br/>
+                      <li>Free Engagement Session</li><br/>
+                      <li>30% Off Your Next Booked Couples Session</li><br/>
                     </ul>
                   </div>
                 </div>
@@ -162,7 +170,7 @@ export default function Pricing() {
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
                       >
-                        Let's Chat!
+                        Contact Us!
                       </NavLink>
                     </div>
                   </div>
@@ -174,15 +182,15 @@ export default function Pricing() {
                 *hourly pricing or additional hours available at a rate of $200 per hour 
               </p>
               <p>
-                *15% non-refundable deposits required to book
+                *15% non-refundable deposit required to book
               </p>
             </div>
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="engagements" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section id="engagements" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
             <div className="lg:flex">
-              <div className="flex-column lg:p-16">
+              <div className="flex-column lg:p-10">
                 <h1 className="lg:text-6xl text-4xl text-center">
                   The Engagement Package
                 </h1>
@@ -197,11 +205,11 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>1 Outfit, One Location</li>
-                      <li>About 1 Hour</li>
-                      <li>All Images Edited and Delivered (about 80-120 photos)</li>
-                      <li>Personal Online Gallery</li>
-                      <li>For One Couple</li>
+                      <li>1 Outfit, One Location</li><br/>
+                      <li>About 1 Hour</li><br/>
+                      <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>For One Couple</li><br/>
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
@@ -213,12 +221,12 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>2 Outfits, 2 Locations</li>
-                      <li>About 2 Hours</li>
-                      <li>Personal Online Gallery</li>
-                      <li>All Images Edited and Delivered (about 120-160 photos)</li>
-                      <li>For One Couple</li>
-                      <li className="text-blue-800">30% off Your Next Couples Session</li>
+                      <li>2 Outfits, 2 Locations</li><br/>
+                      <li>About 2 Hours</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
+                      <li>For One Couple</li><br/>
+                      <li className="text-blue-800">30% off Your Next Couples Session</li><br/>
                     </ul>
                   </div>
                 </div>
@@ -226,6 +234,19 @@ export default function Pricing() {
                 <p className="text-center">
                   *free when you book a wedding
                 </p>
+                <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
+                <div className="text-2xl">
+                  <ul className="list-disc p-3">
+                    <li>
+                      Package 1 is by far our most popular package and provides the most value!
+                    </li>
+                    <br/>
+                    <li>
+                      Package 2 is for our couples who are looking to get a little bit more out of 
+                      a session. this package is good if you can’t quite decide on a location or want a second look.
+                    </li>
+                  </ul>
+                </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
                   <h1 className="lg:text-5xl text-3xl lg:mb-16 mb-8">
@@ -236,7 +257,7 @@ export default function Pricing() {
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
                       >
-                        Let's Chat!
+                        Contact Us!
                       </NavLink>
                     </div>
                   </div>
@@ -247,25 +268,17 @@ export default function Pricing() {
                   alt="Holding Hands"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
+                <img 
+                  src={behindKiss}
+                  alt="Kiss From Behind"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
               </div>
-            </div>
-            <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-            <div className="text-2xl">
-              <ul className="list-disc p-3">
-                <li>
-                  Package 1 is by far our most popular package and provides the most value!
-                </li>
-                <br/>
-                <li>
-                  Package two is for our couples who are looking to get a little bit more out of 
-                  a session. this package is good if you can’t quite decide on a location or want a second look.
-                </li>
-              </ul>
             </div>
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="couples" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section id="couples" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
             <div className="lg:flex">
               <div className="flex-column">
                 <img 
@@ -273,8 +286,13 @@ export default function Pricing() {
                   alt="Autumn Lovers"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
+                <img 
+                  src={loversBlanket}
+                  alt="Lovers Under a Blanket"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
               </div>
-              <div className="flex-column lg:p-16">
+              <div className="flex-column lg:p-10">
                 <h1 className="lg:text-6xl text-4xl text-center">
                   The Couples Package
                 </h1>
@@ -289,11 +307,11 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>1 Outfit, One Location</li>
-                      <li>About 1 Hour</li>
-                      <li>All Images Edited and Delivered (about 80-120 photos)</li>
-                      <li>Personal Online Gallery</li>
-                      <li>For One Couple</li>
+                      <li>1 Outfit, One Location</li><br/>
+                      <li>About 1 Hour</li><br/>
+                      <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>For One Couple</li><br/>
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
@@ -305,14 +323,27 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left text-xl list-disc">
-                      <li>2 Outfits, 2 Locations</li>
-                      <li>About 2 Hours</li>
-                      <li>Personal Online Gallery</li>
-                      <li>All Images Edited and Delivered (about 120-160 photos)</li>
-                      <li>For One Couple</li>
-                      <li className="text-blue-800">30% off Your Next Couples or Engagement Session</li>
+                      <li>2 Outfits, 2 Locations</li><br/>
+                      <li>About 2 Hours</li><br/>
+                      <li>Personal Online Gallery</li><br/>
+                      <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
+                      <li>For One Couple</li><br/>
+                      <li className="text-blue-800">30% off Your Next Couples or Engagement Session</li><br/>
                     </ul>
                   </div>
+                </div>
+                <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
+                <div className="text-2xl">
+                  <ul className="list-disc p-3">
+                    <li>
+                      Package 1 is by far our most popular package and provides the most value!
+                    </li>
+                    <br/>
+                    <li>
+                      Package 2 is for our couples who are looking to get a little bit more out of 
+                      a session. this package is good if you can’t quite decide on a location or want a second look.
+                    </li>
+                  </ul>
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
@@ -324,24 +355,11 @@ export default function Pricing() {
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
                       >
-                        Let's Chat!
+                        Contact Us!
                       </NavLink>
                     </div>
                   </div>
                 </div>
-            </div>
-            <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-            <div className="text-2xl">
-              <ul className="list-disc p-3">
-                <li>
-                  Package 1 is by far our most popular package and provides the most value!
-                </li>
-                <br/>
-                <li>
-                  Package two is for our couples who are looking to get a little bit more out of 
-                  a session. this package is good if you can’t quite decide on a location or want a second look.
-                </li>
-              </ul>
             </div>
           </section>
         </FadeInSection>

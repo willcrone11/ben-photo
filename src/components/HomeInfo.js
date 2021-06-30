@@ -66,7 +66,7 @@ export default function HomeInfo() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
-            <div className="lg:p-20">
+            <div className="lg:p-6">
               <div className="text-5xl lg:content-center lg:items-center lg:text-left text-center">
                 <h2>For the wild lovers, wildly in love</h2>
               </div>
@@ -244,7 +244,6 @@ export default function HomeInfo() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <hr style={{ borderTop: "solid black 1px" }} className="m-10" />
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div className="lg:flex">
               <div>
