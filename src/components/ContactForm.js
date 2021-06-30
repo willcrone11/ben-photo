@@ -27,10 +27,10 @@ const ContactForm = () => {
   };
   return (
     <form 
-      className="lg:m-10 lg:p-10 m-.5 p-1 text-center items-center content-center justify-center" 
+      className="lg:m-10 lg:p-10 md:m-10 md:p-10 m-.5 p-1 text-center items-center content-center justify-center" 
       onSubmit={handleSubmit}
     >
-      <div className="lg:ml-60 ml-4 lg:mr-60 mr-4 bg-gray-200 ">
+      <div className="lg:ml-52 ml-4 lg:mr-52 mr-4 bg-gray-200 ">
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             htmlFor="name"
@@ -93,7 +93,7 @@ const ContactForm = () => {
           <br/>
           <textarea id="message" required />
         </div>
-        <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+        <div className="transition duration-500 ease-in-out transform hover:scale-150 mb-10">
           <button 
             type="submit"
             className="bg-blue-500 text-white lg:p-5 p-2 lg:m-5 m-2"

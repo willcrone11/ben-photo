@@ -27,11 +27,11 @@ export default function Contact() {
                   className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
                 />
                 <div className="flex-column">
-                  <p className="text-center lg:text-6xl md:text-4xl text-5xl">
+                  <p className="text-center lg:text-6xl md:text-4xl text-4xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
-                  <p className="text-center lg:text-3xl md:text-2xl text-2xl">
+                  <p className="text-center lg:text-3xl md:text-2xl text-xl">
                     Beforehand, we recommend checking out our package
                     details, as transparency is key in our relationship.
                   </p>
@@ -39,7 +39,7 @@ export default function Contact() {
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
                         <NavLink 
                           to="/pricing" 
-                          className="text-2xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                          className="lg:text-2xl md:text-2xl text-lg bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                         >
                           Pricing and Packages
                         </NavLink>
