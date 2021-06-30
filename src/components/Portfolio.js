@@ -103,18 +103,18 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
             <div className="lg:p-20">
               <h1 className="lg:text-7xl text-4xl content-center items-center text-center justify-center">
                 Galleries
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <div className="lg:flex content-center items-center text-center justify-center">
+              <div className="lg:flex md:flex content-center items-center text-center justify-center">
                 <div>
                   <img 
                     src={fieldLove}
                     alt="Katie and Corbin"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5"
+                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Katie and Corbin
@@ -133,7 +133,7 @@ export default function Portfolio() {
                   <img 
                     src={weddingFlowers}
                     alt="Elise and Braxton"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5"
+                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Elise and Braxton
@@ -152,7 +152,7 @@ export default function Portfolio() {
                   <img 
                     src={behindHug}
                     alt="Sarah and Adam"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5"
+                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Sarah and Adam

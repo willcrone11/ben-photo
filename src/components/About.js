@@ -32,10 +32,10 @@ export default function About() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5">
             <img
               src={urlFor(author.authorImage).url()}
-              className="rounded lg:w-80 lg:auto"
+              className="rounded lg:w-80 lg:auto md:w-80 md:auto"
               alt={author.name}
             />
             <div className="text-lg flex flex-col justify-center lg:ml-28 ">
@@ -58,7 +58,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-10 p-5 mt-10 lg:flex">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-10 p-5 mt-10 md:flex lg:flex">
             <div className="prose lg:text-3xl text-xl content-center items-center">
               <h1 className="lg:text-5xl text-3xl">
                 Some ways to describe myself...
@@ -77,7 +77,7 @@ export default function About() {
             <img 
               src={benSideView}
               alt="Ben Side View"
-              className="lg:m-10 lg:w-96 lg:h-116 mt-10"
+              className="lg:m-10 lg:w-96 lg:h-3/5 md:w-3/5 md:p-6 md:h-116 mt-10"
             />
           </section>
         </FadeInSection>
@@ -116,8 +116,8 @@ export default function About() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
-            <div className="lg:flex lg:p-5">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
+            <div className="lg:flex md:flex lg:p-5">
               <p className="lg:text-3xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
                 come full-circle? to me, that has always been an irresistible high 
@@ -135,7 +135,7 @@ export default function About() {
                   <img 
                     src={manToss}
                     alt="Wedding Celebration"
-                    className="lg:m-10 lg:pr-8"
+                    className="lg:m-10 md:m-5 lg:pr-8"
                   />
                 </div>
               
@@ -143,11 +143,11 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
             <img 
               src={beachLove}
               alt="Beach Love"
-              className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5"
+              className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
             <div className="lg:p-16">
               <div className="lg:text-4xl text-xl lg:flex lg:content-center lg:items-center text-center">

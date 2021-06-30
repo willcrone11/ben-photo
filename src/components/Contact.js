@@ -19,19 +19,19 @@ export default function Contact() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
-            <div className="content-center items-center justify-center lg:ml-6 pt-4">
-              <div className="lg:flex">
+            <div className="content-center items-center justify-center lg:ml-6 md:ml-3 pt-4">
+              <div className="lg:flex md:flex">
                 <img 
                   src={flowerKiss}
                   alt="Flower Kiss"
-                  className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5"
+                  className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
                 />
                 <div className="flex-column">
-                  <p className="text-center lg:text-6xl text-5xl">
+                  <p className="text-center lg:text-6xl md:text-4xl text-5xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
-                  <p className="text-center lg:text-3xl text-2xl">
+                  <p className="text-center lg:text-3xl md:text-2xl text-2xl">
                     Beforehand, we recommend checking out our package
                     details, as transparency is key in our relationship.
                   </p>
