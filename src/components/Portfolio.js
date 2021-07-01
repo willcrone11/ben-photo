@@ -234,7 +234,7 @@ export default function Portfolio() {
               Elise and Braxton
             </h1><br/>
             <h3 className="text-center text-gray-500 lg:text-3xl">
-              two long timer lovers tying the knot. spunky. happy. soul-mates.
+              two long-time lovers tying the knot. spunky. happy. soul-mates.
             </h3>
             <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
             <div className="lg:flex">

@@ -64,7 +64,7 @@ export default function About() {
                 Some ways to describe myself...
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
-              <ul className="list-disc lg:ml-8 ml-5">
+              <ul className="lg:ml-8 ml-5">
                 <li>Wanderer</li>
                 <li>Saver-of-the planet</li>
                 <li>Coffee enthusiast</li>
@@ -116,7 +116,7 @@ export default function About() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
             <div className="lg:flex md:flex lg:p-5">
               <p className="lg:text-3xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
@@ -157,7 +157,7 @@ export default function About() {
                   <br/><br/> 
                   if you think my team and i would 
                   be a good fit for your big day, engagement session, or “just for fun” 
-                  pictures, shoot me a massage with the button below and we’ll get started 
+                  pictures, shoot me a message with the button below and we’ll get started 
                   on planning your adventure!
                 </p>
               </div>

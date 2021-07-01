@@ -231,10 +231,10 @@ export default function Pricing() {
                   </div>
                 </div>
                 <br/>
-                <p className="text-center">
+                <p className="">
                   *free when you book a wedding
                 </p>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
                 <div className="text-2xl">
                   <ul className="list-disc p-3">
                     <li>
