@@ -50,27 +50,27 @@ export default function Pricing() {
                     Jump to...
                   </h1>
                 </div>
-                <div className="lg:flex md:flex content-center items-center justify-center lg:p-3">
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-16">
+                <div className="flex content-center items-center justify-center lg:p-3">
+                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
-                      className="text-xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Weddings
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
-                      className="text-xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-6"
+                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Engagements
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#couples" 
-                      className="text-xl bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Couples
                     </Link>
