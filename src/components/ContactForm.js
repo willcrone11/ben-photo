@@ -9,8 +9,7 @@ const ContactForm = () => {
     >
       <div className="lg:ml-52 ml-4 lg:mr-52 mr-4 bg-gray-200 ">
         <div className="lg:p-5 p-2 lg:m-5 m-2">
-          <label 
-            htmlFor="name"
+          <label
             className="lg:mr-4"
           >
             Name:
@@ -19,7 +18,6 @@ const ContactForm = () => {
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
-            htmlFor="partnerName"
             className="lg:mr-4"
           >
             Partner Name:
@@ -28,7 +26,6 @@ const ContactForm = () => {
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
-            htmlFor="preferDate"
             className="lg:mr-4"
           >
             Preferred Date:
@@ -37,7 +34,6 @@ const ContactForm = () => {
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
-            htmlFor="email"
             className="lg:mr-4"
             >
               Email:
@@ -46,7 +42,6 @@ const ContactForm = () => {
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
-            htmlFor="session"
             className="lg:mr-4"
             >
               Type of Session:
@@ -59,7 +54,6 @@ const ContactForm = () => {
         </div>
         <div className="lg:p-5 p-1 lg:m-5 m-1">
           <label 
-            htmlFor="message"
             className="lg:mr-4"
           >
             Message:
