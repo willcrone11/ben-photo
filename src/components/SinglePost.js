@@ -38,7 +38,7 @@ export default function SinglePost() {
   if (!singlePost) return <div>Loading...</div>
 
   return (
-    <main className="bg-gray-200 min-h-screen p-12">
+    <main className="bg-gray-200 min-h-screen lg:p-12 md:p-6 p-2">
       <article className="container shadow-lg mx-auto bg-gray-100 rounded-lg">
         <header className="relative">
           <div className="absolute h-full w-full flex items-center justify-center p-8">
@@ -72,7 +72,7 @@ export default function SinglePost() {
             style={{ height: 400 }}
           />
         </header>
-        <div className="px-16 lg:px-48 py-12 lg:py-20  max-w-full">
+        <div className="lg:px-16 lg:px-48 lg:py-12 lg:py-20  md:p-8 p-4 max-w-full">
           <BlockContent 
             blocks={singlePost.body}
             projectId="2pvrefrb"
