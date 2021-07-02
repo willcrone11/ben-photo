@@ -27,6 +27,62 @@
     <title>Benjamin Britton Photography</title>
   </head>
   <body>
+    <form 
+      name="contact" method="POST" data-netlify="true" hidden
+    >
+      <div>
+        <div>
+          <label>
+            Name:
+          </label><br/><br/>
+          <input name="name" type="text" id="name" required />
+        </div>
+        <div>
+          <label>
+            Partner Name:
+          </label><br/><br/>
+          <input name="partnerName" type="text" id="partnerName" required />
+        </div>
+        <div>
+          <label>
+            Preferred Date:
+          </label><br/><br/>
+          <input name="preferDate" type="date" id="preferDate" required />
+        </div>
+        <div>
+          <label>
+              Email:
+          </label><br/><br/>
+          <input name="email" type="email" id="email" required />
+        </div>
+        <div>
+          <label>
+              Type of Session:
+          </label><br/><br/>
+          <select name="session" id="session" required>
+            <option value="Wedding">Wedding</option>
+            <option value="Engagement">Engagement</option>
+            <option value="Couples">Couples</option>
+          </select>
+        </div>
+        <div>
+          <label>
+            Message:
+          </label>
+          <p>
+            Drop any questions or concerns, or just say hello!
+          </p>
+          <br/>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+          <button 
+            type="submit">
+            Submit
+          </button>
+        </div>
+      </div>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
