@@ -15,7 +15,7 @@ const ContactForm = () => {
           >
             Name:
           </label><br/><br/>
-          <input type="text" id="name" required />
+          <input name="name" type="text" id="name" required />
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
@@ -24,7 +24,7 @@ const ContactForm = () => {
           >
             Partner Name:
           </label><br/><br/>
-          <input type="text" id="partnerName" required />
+          <input name="partnerName" type="text" id="partnerName" required />
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
@@ -33,7 +33,7 @@ const ContactForm = () => {
           >
             Preferred Date:
           </label><br/><br/>
-          <input type="date" id="preferDate" required />
+          <input name="preferDate" type="date" id="preferDate" required />
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
@@ -42,7 +42,7 @@ const ContactForm = () => {
             >
               Email:
           </label><br/><br/>
-          <input type="email" id="email" required />
+          <input name="email" type="email" id="email" required />
         </div>
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
@@ -51,7 +51,7 @@ const ContactForm = () => {
             >
               Type of Session:
           </label><br/><br/>
-          <select id="session" required>
+          <select name="session" id="session" required>
             <option value="Wedding">Wedding</option>
             <option value="Engagement">Engagement</option>
             <option value="Couples">Couples</option>
@@ -68,7 +68,7 @@ const ContactForm = () => {
             Drop any questions or concerns, or just say hello!
           </p>
           <br/>
-          <textarea id="message"/>
+          <textarea name="message" id="message"/>
         </div>
         <div className="mb-10">
           <button 
