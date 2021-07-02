@@ -4,9 +4,10 @@ const ContactForm = () => {
   
   return (
     <form 
-      type="hidden" name="form-name" value="contact"
+      name="contact" method="post"
       className="lg:m-10 lg:p-10 md:m-10 md:p-10 m-.5 p-1 text-center items-center content-center justify-center" 
     >
+      <input type="hidden" name="form-name" value="contact" />
       <div className="lg:ml-52 ml-4 lg:mr-52 mr-4 bg-gray-200 ">
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label
