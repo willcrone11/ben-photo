@@ -1,34 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 
 const ContactForm = () => {
-  const [status, setStatus] = useState("Submit");
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setStatus("Sending...");
-    const { name, partnerName, preferDate, session, email, message } = e.target.elements;
-    let details = {
-      name: name.value,
-      partnerName: partnerName.value,
-      preferDate: preferDate.value,
-      session: session.value,
-      email: email.value,
-      message: message.value,
-    };
-    let response = await fetch("http://localhost:5000/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-    setStatus("Submit");
-    let result = await response.json();
-    alert(result.status);
-  };
+  
   return (
     <form 
+      netlify name="contact"
       className="lg:m-10 lg:p-10 md:m-10 md:p-10 m-.5 p-1 text-center items-center content-center justify-center" 
-      onSubmit={handleSubmit}
     >
       <div className="lg:ml-52 ml-4 lg:mr-52 mr-4 bg-gray-200 ">
         <div className="lg:p-5 p-2 lg:m-5 m-2">
@@ -98,7 +75,7 @@ const ContactForm = () => {
             type="submit"
             className="bg-blue-500 text-white lg:p-5 p-2 lg:m-5 m-2"
           >
-            {status}
+            Submit
           </button>
         </div>
       </div>
