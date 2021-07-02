@@ -76,7 +76,7 @@ export default function Contact() {
               <img 
                 src={weddingParty}
                 alt="Wedding Party"
-                className="lg:m-4 lg:pt-10 lg:w-2/5 lg:h-2/5"
+                className="lg:m-4 lg:pt-10 lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
               />
               <div className="flex-column p-4">
                 <h1 className="lg:text-6xl text-4xl">
