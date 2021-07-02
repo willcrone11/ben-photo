@@ -91,9 +91,9 @@ const ContactForm = () => {
             Drop any questions or concerns, or just say hello!
           </p>
           <br/>
-          <textarea id="message" required />
+          <textarea id="message"/>
         </div>
-        <div className="transition duration-500 ease-in-out transform hover:scale-150 mb-10">
+        <div className="mb-10">
           <button 
             type="submit"
             className="bg-blue-500 text-white lg:p-5 p-2 lg:m-5 m-2"
