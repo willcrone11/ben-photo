@@ -4,7 +4,7 @@ const ContactForm = () => {
   
   return (
     <form 
-      netlify name="contact"
+      data-netlify="true"
       className="lg:m-10 lg:p-10 md:m-10 md:p-10 m-.5 p-1 text-center items-center content-center justify-center" 
     >
       <div className="lg:ml-52 ml-4 lg:mr-52 mr-4 bg-gray-200 ">
