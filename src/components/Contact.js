@@ -12,7 +12,7 @@ export default function Contact() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+          <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Contact Us!
           </h1>
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
@@ -27,11 +27,11 @@ export default function Contact() {
                   className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
                 />
                 <div className="flex-column">
-                  <p className="text-center lg:text-6xl md:text-4xl text-4xl">
+                  <p className="text-center 2xl:text-8xl lg:text-6xl md:text-4xl text-4xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
-                  <p className="text-center lg:text-3xl md:text-2xl text-xl">
+                  <p className="text-center 2xl:text-4xl lg:text-3xl md:text-2xl text-xl">
                     Beforehand, we recommend checking out our package
                     details, as transparency is key in our relationship.
                   </p>
@@ -79,26 +79,26 @@ export default function Contact() {
                 className="lg:m-4 lg:pt-10 lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
               />
               <div className="flex-column p-4">
-                <h1 className="lg:text-6xl text-4xl">
+                <h1 className="2xl:text-7xl lg:text-6xl text-4xl">
                   The next steps...
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-3" />
                 <br/>
-                <h3 className="lg:text-3xl text-2xl">
+                <h3 className="2xl:text-4xl g:text-3xl text-2xl">
                   In the next 48 hours...
                 </h3>
                 <br/>
-                <p className="lg:text-xl text-md">
+                <p className="2xl:text-2xl lg:text-xl text-md">
                   we will send you a reply. if we don’t get back to you, 
                   contact us at benjaminbrittonphotography@gmail.com because 
                   something went wrong. 
                 </p>
                 <br/>
-                <h3 className="lg:text-3xl text-2xl">
+                <h3 className="2xl:text-4xl lg:text-3xl text-2xl">
                   Set up a wedding consult
                 </h3>
                 <br/>
-                <p className="lg:text-xl text-md">
+                <p className="2xl:text-2xl lg:text-xl text-md">
                   if this is a wedding and you’re ready for booking, we will setup a consult 
                   to learn more about you, talk about the details of your wedding, and exchange 
                   a deposit of $175 to reserve your date. 
@@ -110,8 +110,8 @@ export default function Contact() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div className="lg:flex">
-              <div>
-                <h1 className="items-center content-center justify-center text-center lg:text-6xl text-5xl">
+              <div className="2xl:p-12 xl:p-12">
+                <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">
                   We Can't Wait to Meet You!
                 </h1>
                 <br/>

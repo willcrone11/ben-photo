@@ -45,7 +45,7 @@ export default function About() {
                   {author.name}
                 </span>
               </h1>
-              <p className="text-2xl text-center">
+              <p className="text-2xl 2xl:text-4xl text-center">
                 I can’t wait to meet you! 
                 But first, here's a little about me… 
               </p>
@@ -59,8 +59,8 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
-              <h1 className="lg:text-5xl text-3xl">
+            <div className="prose 2xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+              <h1 className="2xl:text-8xl lg:text-5xl text-3xl">
                 Some ways to describe myself...
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
@@ -117,8 +117,8 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
-            <div className="lg:flex md:flex lg:p-5">
-              <p className="lg:text-3xl text-xl lg:content-center lg:items-center text-left">
+            <div className="lg:flex md:flex lg:p-5 2xl:p-14">
+              <p className="2xl:text-4xl lg:text-3xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
                 come full-circle? to me, that has always been an irresistible high 
                 and my why to what i do.
@@ -149,8 +149,8 @@ export default function About() {
               alt="Beach Love"
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
-            <div className="lg:p-16">
-              <div className="lg:text-4xl text-xl lg:flex lg:content-center lg:items-center text-center">
+            <div className="lg:p-16 2xl:p-16 xl:p-16">
+              <div className="2xl:text-5xl lg:text-4xl text-xl lg:flex lg:content-center lg:items-center text-center">
                 <p>
                   Among everything that makes me me, the enjoyment in documenting 
                   love stories is one of my favorites.
@@ -163,7 +163,7 @@ export default function About() {
               </div>
               <br/>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-2xl text-center mt-16 mb-5">
+              <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-2xl 2xl:text-4xl text-center mt-16 mb-5">
                   <NavLink 
                     to="/contact" 
                     className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"

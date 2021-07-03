@@ -22,13 +22,13 @@ export default function HomeInfo() {
               alt="Wedding Kiss"
               className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
             />
-            <div className="lg:p-16 xl:p-12">
-              <div className="lg:text-7xl text-5xl lg:content-center lg:items-center text-center">
+            <div className="lg:p-16 xl:p-12 2xl:p-16">
+              <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
                 <h2>Hey there!</h2>
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
               <div className="lg:content-center lg:items-center text-center md:p-2">
-                <p className="lg:text-3xl text-xl">
+                <p className="lg:text-3xl text-xl 2xl:text-5xl">
                   Thanks for stopping by our website! We hope you find us to be a match
                   for your wedding, engagement, or couple photos.
                   <br/><br/>
@@ -66,13 +66,13 @@ export default function HomeInfo() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
-            <div className="lg:p-6">
-              <div className="text-5xl lg:content-center lg:items-center lg:text-left text-center">
+            <div className="lg:p-6 2xl:p-12">
+              <div className="text-5xl 2xl:text-7xl lg:content-center lg:items-center lg:text-left text-center">
                 <h2>For the wild lovers, wildly in love</h2>
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
               <div className="lg:content-center lg:items-center text-left">
-                <p className="text-xl">
+                <p className="text-xl 2xl:text-2xl">
                   Whether you’re looking for a wedding, engagement, or casual session with 
                   our partner, we’re glad to have you consider us!
                   <br/><br/>
@@ -89,11 +89,11 @@ export default function HomeInfo() {
                 </p>
                 <br/><br/>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                <div className="lg:flex md:flex content-center items-center justify-center text-center text-2xl md:mb-8 mt-5 pt-5">
+                <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-2xl text-sm mt-3 mb-8 pt-5">
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
                     <NavLink 
                       to="/about" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       About
                     </NavLink>
@@ -102,7 +102,7 @@ export default function HomeInfo() {
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
                     <NavLink 
                       to="/portfolio" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Portfolio
                     </NavLink>
@@ -111,7 +111,7 @@ export default function HomeInfo() {
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
                     <NavLink 
                       to="/contact" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Contact
                     </NavLink>
@@ -246,8 +246,8 @@ export default function HomeInfo() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div className="lg:flex">
-              <div>
-                <h1 className="items-center content-center justify-center text-center lg:text-6xl text-5xl">
+              <div className="2xl:p-12 xl:p-12">
+                <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">
                   We Can't Wait to Meet You!
                 </h1>
                 <br/>

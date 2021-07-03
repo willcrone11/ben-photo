@@ -27,12 +27,14 @@ export default function Post() {
     <main className="bg-gray-100 min-h-screen lg:p-12 p-6"> 
       <section className="container mx-auto">
         <FadeInSection>
-          <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+          <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Blog Posts
           </h1>
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
         </FadeInSection>
-        <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my Blog!</h2>
+        <h2 className="2xl:text-3xl text-lg text-gray-600 flex justify-center mb-12">
+          Welcome to my Blog!
+        </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
             <article className="transition duration-500 ease-in-out transform hover:scale-110">

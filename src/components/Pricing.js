@@ -15,7 +15,7 @@ export default function Pricing() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+          <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Pricing and Packages
           </h1>
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
@@ -23,11 +23,11 @@ export default function Pricing() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="lg:flex">
-              <div className="flex-column lg:p-8">
-                <h1 className="lg:text-6xl text-4xl">
+              <div className="flex-column 2xl:p-8 xl:p-8 lg:p-8">
+                <h1 className="lg:text-6xl 2xl:text-8xl text-4xl">
                   Ok, the details...
                 </h1>
-                <p className="lg:text-3xl text-xl lg:p-6 mt-3">
+                <p className="2xl:text-4xl lg:text-3xl text-xl lg:p-6 mt-3">
                   Before you ask me to be your third wheel, you probably want to know what 
                   you’re getting and for how much!
                   <br/><br/>
@@ -46,7 +46,7 @@ export default function Pricing() {
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-3 mt-5" />
                 <div className="content-center items-center justify-center text-center lg:ml-6 pt-4">
-                  <h1 className="lg:text-5xl text-3xl">
+                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl 2xl:mb-8">
                     Jump to...
                   </h1>
                 </div>
@@ -54,7 +54,7 @@ export default function Pricing() {
                   <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
-                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
+                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Weddings
                     </Link>
@@ -62,7 +62,7 @@ export default function Pricing() {
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
-                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
+                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Engagements
                     </Link>
@@ -70,7 +70,7 @@ export default function Pricing() {
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#couples" 
-                      className="lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
+                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       Couples
                     </Link>
@@ -103,20 +103,20 @@ export default function Pricing() {
                 />
               </div>
               <div className="flex-column lg:p-14">
-                <h1 className="lg:text-6xl text-4xl text-center">
+                <h1 className="2xl:text-8xl lg:text-6xl text-4xl text-center">
                   The Wedding Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                 <div className="lg:flex">
                   <div className="flex-column text-center p-4">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $800
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
                       <li>Up to 4 hours of coverage</li><br/>
                       <li>2 Photographers</li><br/>
                       <li>Personal Online Gallery</li><br/>
@@ -125,14 +125,14 @@ export default function Pricing() {
                     </ul>
                   </div>
                   <div className="flex-column text-center p-4">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $1,400
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
                       <li>Up to 8 hours of coverage</li><br/>
                       <li>2 Photographers</li><br/>
                       <li>Personal Online Gallery</li><br/>
@@ -142,14 +142,14 @@ export default function Pricing() {
                     </ul>
                   </div>
                   <div className="flex-column text-center p-4">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 3
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $1650
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
                       <li>Up to 10 hours of coverage</li><br/>
                       <li>2 Photographers</li><br/>
                       <li>Personal Online Gallery</li><br/>
@@ -162,10 +162,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="lg:text-5xl text-3xl lg:mb-16 mb-8">
+                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-8">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center 2xl:text-4xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -191,20 +191,20 @@ export default function Pricing() {
           <section id="engagements" className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
             <div className="lg:flex">
               <div className="flex-column lg:p-10">
-                <h1 className="lg:text-6xl text-4xl text-center">
+                <h1 className="2xl:text-8xl lg:text-6xl text-4xl text-center">
                   The Engagement Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                 <div className="lg:flex">
                   <div className="flex-column text-center lg:p-8 p-8">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $150*
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-3xl text-xl list-disc">
                       <li>1 Outfit, One Location</li><br/>
                       <li>About 1 Hour</li><br/>
                       <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
@@ -213,14 +213,14 @@ export default function Pricing() {
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-3xl text-xl list-disc">
                       <li>2 Outfits, 2 Locations</li><br/>
                       <li>About 2 Hours</li><br/>
                       <li>Personal Online Gallery</li><br/>
@@ -249,10 +249,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="lg:text-5xl text-3xl lg:mb-16 mb-8">
+                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-8">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-xl 2xl:text-4xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -293,20 +293,20 @@ export default function Pricing() {
                 />
               </div>
               <div className="flex-column lg:p-10">
-                <h1 className="lg:text-6xl text-4xl text-center">
+                <h1 className="2xl:text-8xl lg:text-6xl text-4xl text-center">
                   The Couples Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                 <div className="lg:flex">
                   <div className="flex-column text-center lg:p-8 p-8">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $150
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-3xl text-xl list-disc">
                       <li>1 Outfit, One Location</li><br/>
                       <li>About 1 Hour</li><br/>
                       <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
@@ -315,14 +315,14 @@ export default function Pricing() {
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
-                    <h3 className="lg:text-4xl text-3xl font-bold">
+                    <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
                     <h6 className="text-blue-800 text-2xl">
                       $200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                    <ul className="text-left text-xl list-disc">
+                    <ul className="text-left 2xl:text-3xl text-xl list-disc">
                       <li>2 Outfits, 2 Locations</li><br/>
                       <li>About 2 Hours</li><br/>
                       <li>Personal Online Gallery</li><br/>
@@ -347,10 +347,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="lg:text-5xl text-3xl lg:mb-16 mb-8">
+                  <h1 className="2xl:text-6xl lg:text-5xl text-3xl lg:mb-16 mb-8">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center 2xl:text-3xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"

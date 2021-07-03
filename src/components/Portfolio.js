@@ -37,7 +37,7 @@ export default function Portfolio() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+          <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Portfolio
           </h1>
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
@@ -46,10 +46,10 @@ export default function Portfolio() {
           <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="lg:flex">
               <div className="flex-column lg:p-16">
-                <h1 className="lg:text-6xl text-4xl">
+                <h1 className="2xl:text-8xl lg:text-6xl text-4xl">
                   Their Moments, Their Story, Their Love
                 </h1>
-                <p className="lg:text-4xl text-xl lg:p-3 mt-3 mb-3">
+                <p className="lg:text-4xl text-xl 2xl:p-8 lg:p-3 mt-3 mb-3">
                   It’s always been our philosophy that a photographer is only as good 
                   as the last photo they took. 
                   <br/><br/>
