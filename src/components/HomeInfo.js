@@ -90,7 +90,7 @@ export default function HomeInfo() {
                 <br/><br/>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
                 <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-2xl text-sm mt-3 mb-8 pt-5">
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
                       to="/about" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 pl-7 pr-7 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -99,7 +99,7 @@ export default function HomeInfo() {
                     </NavLink>
                   </div>
                   <br/>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
                       to="/portfolio" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -108,7 +108,7 @@ export default function HomeInfo() {
                     </NavLink>
                   </div>
                   <br/>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
                       to="/contact" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
