@@ -93,7 +93,7 @@ export default function HomeInfo() {
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-5">
                     <NavLink 
                       to="/about" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
+                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 pl-7 pr-7 lg:m-5 md:m-5 xl:m-5 m-1"
                     >
                       About
                     </NavLink>
