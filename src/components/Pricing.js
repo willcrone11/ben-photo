@@ -64,7 +64,7 @@ export default function Pricing() {
                       Weddings
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-6 md:m-5 xl:m-6 m-1"
@@ -72,7 +72,7 @@ export default function Pricing() {
                       Engagements
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#couples" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
