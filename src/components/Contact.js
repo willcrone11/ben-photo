@@ -12,7 +12,7 @@ export default function Contact() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
-  
+
   return (
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
@@ -81,15 +81,15 @@ export default function Contact() {
               <img 
                 src={weddingParty}
                 alt="Wedding Party"
-                className="lg:m-4 lg:pt-10 lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
+                className="lg:m-4  lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
               />
-              <div className="flex-column p-4">
-                <h1 className="2xl:text-7xl lg:text-6xl text-4xl">
+              <div className="flex-column p-3">
+                <h1 className="2xl:text-7xl lg:text-5xl text-4xl">
                   The next steps...
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-3" />
                 <br/>
-                <h3 className="2xl:text-4xl g:text-3xl text-2xl">
+                <h3 className="2xl:text-4xl lg:text-3xl text-2xl">
                   In the next 48 hours...
                 </h3>
                 <br/>
