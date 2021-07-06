@@ -20,9 +20,9 @@ export default function HomeInfo() {
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
-              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
+              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-3/5 2xl:h-3/5"
             />
-            <div className="lg:p-16 xl:p-12 2xl:p-16">
+            <div className="lg:p-10 xl:p-12 2xl:p-16">
               <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
                 <h2>Hey there!</h2>
               </div>
