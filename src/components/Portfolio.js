@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FadeInSection from './FadeInSection';
 import holdingHands from '../img/holding-hands.png';
 import spidermanStyle from '../img/spiderman-style.png';
@@ -33,6 +33,11 @@ import sarahAdam7 from '../img/sarah-adam/sarah-adam7.jpeg';
 
 
 export default function Portfolio() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">

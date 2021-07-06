@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ContactForm from './ContactForm';
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
@@ -8,6 +8,11 @@ import flowerKiss from '../img/flower-kiss.jpeg';
 import FadeInSection from './FadeInSection';
 
 export default function Contact() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">

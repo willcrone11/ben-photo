@@ -16,6 +16,10 @@ export default function About() {
   const [author, setAuthor] = useState(null);
 
   useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
+  useEffect(() => {
     sanityClient
       .fetch(`*[_type == "author"]{
         name,

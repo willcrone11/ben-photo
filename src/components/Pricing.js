@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import cakeKiss from '../img/cake-kiss.jpeg';
@@ -11,6 +11,11 @@ import loversHeadTouch from '../img/lovers-head-touch.png';
 import FadeInSection from './FadeInSection';
 
 export default function Pricing() {
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+  
   return (
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
