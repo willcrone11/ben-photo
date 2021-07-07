@@ -16,7 +16,7 @@ export default function HomeInfo() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
@@ -65,7 +65,7 @@ export default function HomeInfo() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
             <div className="lg:p-6 2xl:p-12">
               <div className="text-5xl 2xl:text-7xl lg:content-center lg:items-center lg:text-left text-center">
                 <h2>For the wild lovers, wildly in love</h2>
@@ -88,7 +88,7 @@ export default function HomeInfo() {
                   ones, send us a message through the contact page. 
                 </p>
                 <br/><br/>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-5" />
                 <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-2xl text-sm mt-3 mb-8 pt-5">
                   <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
@@ -120,6 +120,7 @@ export default function HomeInfo() {
                 </div>
               </div>
             </div>
+            <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-12" />
             <img 
               src={engagementKiss}
               alt="Engagement Kiss"
@@ -140,7 +141,7 @@ export default function HomeInfo() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
             <div className="lg:p-20">
               <h1 className="lg:text-7xl text-4xl content-center items-center text-center justify-center">
                 Pricing and Packages
@@ -232,7 +233,7 @@ export default function HomeInfo() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div>
               <div className="contact-background content-center items-center text-center justify-center lg:ml-6 pt-4">
                 <h1 className="lg:text-6xl text-3xl bg-gray-200 p-8 lg:ml-48 ml-4 lg:mr-48 mr-4 mb-4">
@@ -244,7 +245,7 @@ export default function HomeInfo() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div className="lg:flex">
               <div className="2xl:p-12 xl:p-12">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">

@@ -23,7 +23,7 @@ export default function Contact() {
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="content-center items-center justify-center lg:ml-6 md:ml-3 pt-4">
               <div className="lg:flex md:flex">
                 <img 
@@ -64,7 +64,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div>
               <div className="contact-background content-center items-center text-center justify-center lg:ml-6 pt-4">
                 <h1 className="lg:text-6xl text-3xl bg-gray-200 p-8 lg:ml-48 ml-4 lg:mr-48 mr-4 mb-4">
@@ -76,7 +76,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 mt-10">
             <div className="lg:flex">
               <img 
                 src={weddingParty}
@@ -113,7 +113,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
             <div className="lg:flex">
               <div className="2xl:p-12 xl:p-12">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">
