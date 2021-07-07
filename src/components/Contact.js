@@ -29,7 +29,7 @@ export default function Contact() {
                 <img 
                   src={flowerKiss}
                   alt="Flower Kiss"
-                  className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
+                  className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
                   <p className="text-center 2xl:text-8xl lg:text-6xl md:text-4xl text-4xl">
@@ -44,7 +44,7 @@ export default function Contact() {
                   <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
                         <NavLink 
                           to="/pricing" 
-                          className="lg:text-2xl md:text-2xl text-lg bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                          className="lg:text-2xl md:text-xl text-lg bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                         >
                           Pricing and Packages
                         </NavLink>

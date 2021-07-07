@@ -121,7 +121,7 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
-            <div className="lg:flex md:flex lg:p-5 2xl:p-14">
+            <div className="lg:flex md:flex md:p-12 lg:p-5 2xl:p-14">
               <p className="2xl:text-4xl lg:text-3xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
                 come full-circle? to me, that has always been an irresistible high 

@@ -16,11 +16,11 @@ export default function HomeInfo() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5">
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
-              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-3/5 2xl:h-3/5"
+              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-3/5 2xl:h-3/5 md:w-3/5 md:h-3/5"
             />
             <div className="lg:p-10 xl:p-12 2xl:p-16">
               <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
@@ -28,7 +28,7 @@ export default function HomeInfo() {
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
               <div className="lg:content-center lg:items-center text-center md:p-2">
-                <p className="lg:text-3xl text-xl 2xl:text-5xl">
+                <p className="lg:text-3xl md:text-2xl text-xl 2xl:text-5xl">
                   Thanks for stopping by our website! We hope you find us to be a match
                   for your wedding, engagement, or couple photos.
                   <br/><br/>
@@ -36,7 +36,7 @@ export default function HomeInfo() {
                   shoot us a message by clicking the button below!
                 </p>
                 <br/><br/>
-                <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-2xl text-center mt-5 mb-5">
+                <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center md:text-xl text-2xl text-center mt-5 mb-5">
                   <NavLink 
                     to="/contact" 
                     className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
