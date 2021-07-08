@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import sanityClient from '../client';
 import imageUrlBuilder from '@sanity/image-url';
-import beachLove from '../img/beach-love.jpeg';
-import benSideView from '../img/ben-sideview.png';
+import amongEverything from '../img/among-everything.jpeg';
+import benSideView from '../img/ben-sideview.jpeg';
 import manToss from '../img/man-toss.jpeg';
 import { NavLink } from 'react-router-dom';
 import FadeInSection from './FadeInSection';
@@ -149,7 +149,7 @@ export default function About() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
             <img 
-              src={beachLove}
+              src={amongEverything}
               alt="Beach Love"
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />

@@ -86,7 +86,7 @@ export default function Pricing() {
                 <img 
                   src={cakeKiss}
                   alt="Cake Kiss"
-                  className="items-center content-center lg:m-4 mb-4 "
+                  className="items-center content-center lg:m-4 mb-4 p-2"
                 />
               </div>
             </div>

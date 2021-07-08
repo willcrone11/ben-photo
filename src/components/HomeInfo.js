@@ -2,8 +2,8 @@ import React from 'react';
 import weddingKiss from '../img/wedding-kiss.jpeg';
 import engagementKiss from '../img/engagement-kiss.jpeg';
 import weddingFlowers from '../img/wedding-flowers.jpeg';
-import pillowFight from '../img/pillow-fight.jpeg'
-import fieldLove from '../img/field-love.jpeg';
+import couplesPortal from '../img/couples-portal.jpeg'
+import engagementPortal from '../img/engagement-portal.jpeg';
 import loversLying from '../img/lovers-lying.jpeg';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -20,7 +20,7 @@ export default function HomeInfo() {
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
-              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-3/5 2xl:h-3/5 md:w-3/5 md:h-3/5"
+              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-2/5 2xl:h-2/5 md:w-3/5 md:h-3/5"
             />
             <div className="lg:p-10 xl:p-12 2xl:p-16">
               <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
@@ -172,7 +172,7 @@ export default function HomeInfo() {
                 </div>
                 <div>
                   <img 
-                    src={fieldLove}
+                    src={engagementPortal}
                     alt="Field Love"
                     className="lg:m-10 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
@@ -194,7 +194,7 @@ export default function HomeInfo() {
                 </div>
                 <div>
                   <img 
-                    src={pillowFight}
+                    src={couplesPortal}
                     alt="Pillow Fight"
                     className="lg:m-10 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />

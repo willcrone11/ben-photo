@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import FadeInSection from './FadeInSection';
-import holdingHands from '../img/holding-hands.png';
-import spidermanStyle from '../img/spiderman-style.png';
+import theirMoment1 from '../img/their-moment1.png';
+import theirMoment2 from '../img/their-moment2.png';
 import weddingFlowers from '../img/wedding-flowers.jpeg';
 import behindHug from '../img/behind-hug.jpeg';
 import fieldLove from '../img/field-love.jpeg';
@@ -50,10 +50,11 @@ export default function Portfolio() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="lg:flex">
-              <div className="flex-column lg:p-16">
+              <div className="flex-column lg:p-12">
                 <h1 className="2xl:text-8xl lg:text-6xl text-4xl">
                   Their Moments, Their Story, Their Love
                 </h1>
+                <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
                 <p className="lg:text-4xl text-xl 2xl:p-8 lg:p-3 mt-3 mb-3">
                   It’s always been our philosophy that a photographer is only as good 
                   as the last photo they took. 
@@ -88,18 +89,18 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-              <div className="lg:flex-column">
+              <div className="lg:flex-column p-4">
                 <div>
                   <img 
-                    src={holdingHands}
+                    src={theirMoment1}
                     alt="Holding Hands"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
                 <div>
                   <img 
-                    src={spidermanStyle}
-                    alt="Field Lovers"
+                    src={theirMoment2}
+                    alt="Holding Hands"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
