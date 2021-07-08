@@ -93,14 +93,14 @@ export default function Portfolio() {
                 <div>
                   <img 
                     src={theirMoment1}
-                    alt="Holding Hands"
+                    alt="Blowing Bubbles"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
                 <div>
                   <img 
                     src={theirMoment2}
-                    alt="Holding Hands"
+                    alt="Bridesmaids in the forest"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>

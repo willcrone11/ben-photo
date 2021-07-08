@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import sanityClient from '../client';
 import imageUrlBuilder from '@sanity/image-url';
 import amongEverything from '../img/among-everything.jpeg';
-import benSideView from '../img/ben-sideview.jpeg';
+import benSideView from '../img/ben-sideview.png';
 import manToss from '../img/man-toss.jpeg';
 import { NavLink } from 'react-router-dom';
 import FadeInSection from './FadeInSection';
@@ -63,12 +63,12 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose 2xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
-              <h1 className="2xl:text-8xl lg:text-5xl text-3xl">
+            <div className="prose 2xl:text-5xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+              <h1 className="2xl:text-8xl lg:text-7xl text-3xl">
                 Some ways to describe myself...
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
-              <ul className="lg:ml-8 ml-5">
+              <ul className="lg:ml-8 ml-5 list-disc">
                 <li>Wanderer</li>
                 <li>Saver-of-the planet</li>
                 <li>Coffee enthusiast</li>
@@ -122,7 +122,7 @@ export default function About() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
             <div className="lg:flex md:flex md:p-12 lg:p-5 2xl:p-14">
-              <p className="2xl:text-4xl lg:text-3xl text-xl lg:content-center lg:items-center text-left">
+              <p className="2xl:text-4xl lg:text-2xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
                 come full-circle? to me, that has always been an irresistible high 
                 and my why to what i do.
@@ -135,14 +135,12 @@ export default function About() {
                 <span className="text-blue-800 lg:text-5xl text-3xl">i truly love what i do.</span>
                 </p>
                 <br/>
-                <div className="">
-                  <img 
-                    src={manToss}
-                    alt="Wedding Celebration"
-                    className="lg:m-10 md:m-5 lg:pr-8"
-                  />
-                </div>
-              
+            </div>
+            <div className="m-3">
+              <img 
+                src={manToss}
+                alt="Wedding Celebration"
+              />
             </div>
           </section>
         </FadeInSection>
@@ -150,7 +148,7 @@ export default function About() {
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
             <img 
               src={amongEverything}
-              alt="Beach Love"
+              alt="Lovers Dancing"
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
             <div className="lg:p-16 2xl:p-16 xl:p-16">
