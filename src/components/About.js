@@ -63,7 +63,7 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose 2xl:text-5xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+            <div className="prose 2xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
               <h1 className="2xl:text-8xl lg:text-7xl text-3xl">
                 Some ways to describe myself...
               </h1>
@@ -122,7 +122,7 @@ export default function About() {
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
             <div className="lg:flex md:flex md:p-12 lg:p-5 2xl:p-14">
-              <p className="2xl:text-4xl lg:text-2xl text-xl lg:content-center lg:items-center text-left">
+              <p className="2xl:text-2xl lg:text-2xl text-xl lg:content-center lg:items-center text-left">
                 You know that feeling you get after watching a Disney love story 
                 come full-circle? to me, that has always been an irresistible high 
                 and my why to what i do.
@@ -132,7 +132,7 @@ export default function About() {
                 bones. from the connections i get to make, to intimate moments i get 
                 to capture, to the smiles i catch myself making as i edit the images,
                 <br/><br/>
-                <span className="text-blue-800 lg:text-5xl text-3xl">i truly love what i do.</span>
+                <span className="text-blue-800 2xl:text-7xl lg:text-5xl text-3xl">i truly love what i do.</span>
                 </p>
                 <br/>
             </div>

@@ -89,7 +89,7 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
-              <div className="lg:flex-column p-4">
+              <div className="lg:flex-column lg:p-4">
                 <div>
                   <img 
                     src={theirMoment1}
