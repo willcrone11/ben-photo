@@ -63,19 +63,17 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose 2xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+            <div className="prose 2xl:text-5xl lg:text-4xl md:text-2xl p-5 text-xl content-center items-center">
               <h1 className="2xl:text-8xl lg:text-7xl text-3xl">
                 Some ways to describe myself...
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
-              <ul className="lg:ml-8 ml-5 list-disc">
-                <li>Wanderer</li>
-                <li>Saver-of-the planet</li>
-                <li>Coffee enthusiast</li>
-                <li>Lover of all animals and plants</li>
-                <li>Educator</li>
-                <li>Climber of walls and rocks alike</li>
-                <li>Reveler of the subtleties in life</li>
+              <ul className="lg:ml-8 ml-5">
+                <li className="2xl:mb-3 lg:mb-2">Traveler</li>
+                <li className="2xl:mb-3 lg:mb-2">Science Nerd and Educator</li>
+                <li className="2xl:mb-3 lg:mb-2">Coffee Addict</li>
+                <li className="2xl:mb-3 lg:mb-2">Rock Climber</li>
+                <li>Hot Sauce Enthusiast</li>
               </ul>
             </div>
             <img 
@@ -123,18 +121,17 @@ export default function About() {
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
             <div className="lg:flex md:flex md:p-12 lg:p-5 2xl:p-14">
               <p className="2xl:text-2xl lg:text-2xl text-xl lg:content-center lg:items-center text-left">
-                You know that feeling you get after watching a Disney love story 
-                come full-circle? to me, that has always been an irresistible high 
-                and my why to what i do.
-                <br/><br/>
-                Having the opportunity to peer inside of a 
-                love story, and provide that same perspective warms my body to the 
-                bones. from the connections i get to make, to intimate moments i get 
-                to capture, to the smiles i catch myself making as i edit the images,
-                <br/><br/>
-                <span className="2xl:text-7xl lg:text-5xl text-3xl">
-                  i truly love what i do.
+                <span className="2xl:text-6xl lg:text-4xl">
+                  When I say I love my job... I LOVE my job. 
                 </span>
+                <br/><br/>
+                It’s not just about the awesome 
+                couples I get to meet or the crazy experiences I get to be a part of 
+                (although they help). What really drives me is the high I feel when I get 
+                to witness two people madly in love start another chapter of their life. 
+                <br/><br/>
+                Having the opportunity to peer inside of a love story warms my body to the 
+                bones and the energy it puts off fills me with joy. 
                 </p>
                 <br/>
             </div>
