@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        '164': '41rem', // following the standard of 128 / 4 = 32
+      },
       keyframes: {
         spinOnce: {
           'from': {

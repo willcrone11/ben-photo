@@ -45,7 +45,7 @@ export default function About() {
             <div className="text-lg flex flex-col justify-center lg:ml-28 ">
               <h1 className="cursive text-6xl text-black mb-12 mt-5 text-center">
                 Hey there, I'm{" "}
-                <span className="text-blue-800">
+                <span>
                   {author.name}
                 </span>
               </h1>
@@ -92,7 +92,7 @@ export default function About() {
                 Quirky
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <h2 className="lg:text-2xl text-lg text-center text-blue-800">
+              <h2 className="lg:text-2xl text-lg text-center text-gray-500">
                 /ˈKWƏRKĒ/ /ˈKWƏRKI/ │ ADJECTIVE
               </h2>
             </div>
@@ -132,7 +132,9 @@ export default function About() {
                 bones. from the connections i get to make, to intimate moments i get 
                 to capture, to the smiles i catch myself making as i edit the images,
                 <br/><br/>
-                <span className="text-blue-800 2xl:text-7xl lg:text-5xl text-3xl">i truly love what i do.</span>
+                <span className="2xl:text-7xl lg:text-5xl text-3xl">
+                  i truly love what i do.
+                </span>
                 </p>
                 <br/>
             </div>

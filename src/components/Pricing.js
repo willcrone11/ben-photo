@@ -117,7 +117,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $800
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -133,7 +133,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $1,400
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -150,7 +150,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 3
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $1650
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -205,7 +205,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $150*
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -221,7 +221,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -231,12 +231,12 @@ export default function Pricing() {
                       <li>Personal Online Gallery</li><br/>
                       <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
                       <li>For One Couple</li><br/>
-                      <li className="text-blue-800">30% off Your Next Couples Session</li><br/>
+                      <li>30% off Your Next Couples Session</li><br/>
                     </ul>
                   </div>
                 </div>
                 <br/>
-                <p className="">
+                <p>
                   *free when you book a wedding
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
@@ -307,7 +307,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 1
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $150
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -323,7 +323,7 @@ export default function Pricing() {
                     <h3 className="2xl:text-5xl lg:text-4xl text-3xl font-bold">
                       Pack 2
                     </h3>
-                    <h6 className="text-blue-800 text-2xl">
+                    <h6 className="text-2xl">
                       $200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -333,7 +333,7 @@ export default function Pricing() {
                       <li>Personal Online Gallery</li><br/>
                       <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
                       <li>For One Couple</li><br/>
-                      <li className="text-blue-800">30% off Your Next Couples or Engagement Session</li><br/>
+                      <li>30% off Your Next Couples or Engagement Session</li><br/>
                     </ul>
                   </div>
                 </div>
