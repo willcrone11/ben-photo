@@ -74,12 +74,12 @@ export default function HomeInfo() {
               <div className="lg:content-center lg:items-center text-left">
                 <p className="text-xl 2xl:text-2xl">
                   Whether you’re looking for a wedding, engagement, or casual session with 
-                  our partner, we’re glad to have you consider us!
+                  your partner, we’re glad to have you consider us!
                   <br/><br/>
                   First and foremost, we want you to make sure we’re the right photographers 
                   for your love-story.
                   <br/><br/>
-                  While i have no doubt we’ll feel as if we’ve been friends forever come your 
+                  While we have no doubt we’ll feel as if we’ve been friends forever come your 
                   big day, you should feel an automatic connection with who you choose to 
                   document your moments!
                   <br/><br/>

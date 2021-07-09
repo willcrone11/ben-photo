@@ -3,7 +3,6 @@ import FadeInSection from './FadeInSection';
 import theirMoment1 from '../img/their-moment1.png';
 import theirMoment2 from '../img/their-moment2.png';
 import weddingFlowers from '../img/wedding-flowers.jpeg';
-import behindHug from '../img/behind-hug.jpeg';
 import fieldLove from '../img/field-love.jpeg';
 import { SocialIcon } from 'react-social-icons';
 import { HashLink as Link } from 'react-router-hash-link';
@@ -22,15 +21,40 @@ import eliseBraxton4 from '../img/elise-braxton/elise-braxton4.jpeg';
 import eliseBraxton5 from '../img/elise-braxton/elise-braxton5.jpeg';
 import eliseBraxton6 from '../img/elise-braxton/elise-braxton6.jpeg';
 import eliseBraxton7 from '../img/elise-braxton/elise-braxton7.jpeg';
-//sarah and adam gallery
-import sarahAdam1 from '../img/sarah-adam/sarah-adam1.jpeg';
-import sarahAdam2 from '../img/sarah-adam/sarah-adam2.jpeg';
-import sarahAdam3 from '../img/sarah-adam/sarah-adam3.jpeg';
-import sarahAdam4 from '../img/sarah-adam/sarah-adam4.jpeg';
-import sarahAdam5 from '../img/sarah-adam/sarah-adam5.jpeg';
-import sarahAdam6 from '../img/sarah-adam/sarah-adam6.jpeg';
-import sarahAdam7 from '../img/sarah-adam/sarah-adam7.jpeg';
-
+//jenna and brian gallery
+import jennaBrianHome from '../img/jenna-brian/jenna-brian-home.jpeg';
+import jennaBrian1 from '../img/jenna-brian/jenna-brian1.jpeg';
+import jennaBrian2 from '../img/jenna-brian/jenna-brian2.jpeg';
+import jennaBrian3 from '../img/jenna-brian/jenna-brian3.jpeg';
+import jennaBrian4 from '../img/jenna-brian/jenna-brian4.jpeg';
+import jennaBrian5 from '../img/jenna-brian/jenna-brian5.jpeg';
+import jennaBrian6 from '../img/jenna-brian/jenna-brian6.jpeg';
+import jennaBrian7 from '../img/jenna-brian/jenna-brian7.jpeg';
+import jennaBrian8 from '../img/jenna-brian/jenna-brian8.jpeg';
+//brick and ashley gallery
+import brickAshleyHome from '../img/brick-ashley/brick-ashley1.jpeg';
+import brickAshley2 from '../img/brick-ashley/brick-ashley2.jpeg';
+import brickAshley3 from '../img/brick-ashley/brick-ashley3.jpeg';
+import brickAshley4 from '../img/brick-ashley/brick-ashley4.jpeg';
+import brickAshley5 from '../img/brick-ashley/brick-ashley5.jpeg';
+import brickAshley6 from '../img/brick-ashley/brick-ashley6.jpeg';
+//shelby and jared gallery
+import shelbyJaredHome from '../img/shelby-jared/shelby-jared-home.jpeg';
+import shelbyJared1 from '../img/shelby-jared/shelby-jared1.jpeg';
+import shelbyJared2 from '../img/shelby-jared/shelby-jared2.jpeg';
+import shelbyJared3 from '../img/shelby-jared/shelby-jared3.jpeg';
+import shelbyJared4 from '../img/shelby-jared/shelby-jared4.jpeg';
+import shelbyJared5 from '../img/shelby-jared/shelby-jared5.jpeg';
+import shelbyJared6 from '../img/shelby-jared/shelby-jared6.jpeg';
+//sydney and caleb gallery
+import sydneyCalebHome from '../img/sydney-caleb/sydney-caleb-home.jpeg';
+import sydneyCaleb1 from '../img/sydney-caleb/sydney-caleb1.jpeg';
+import sydneyCaleb2 from '../img/sydney-caleb/sydney-caleb2.jpeg';
+import sydneyCaleb3 from '../img/sydney-caleb/sydney-caleb3.jpeg';
+import sydneyCaleb4 from '../img/sydney-caleb/sydney-caleb4.jpeg';
+import sydneyCaleb5 from '../img/sydney-caleb/sydney-caleb5.jpeg';
+import sydneyCaleb6 from '../img/sydney-caleb/sydney-caleb6.jpeg';
+import sydneyCaleb7 from '../img/sydney-caleb/sydney-caleb7.jpeg';
 
 export default function Portfolio() {
 
@@ -115,62 +139,123 @@ export default function Portfolio() {
                 Galleries
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <div className="lg:flex md:flex content-center items-center text-center justify-center">
-                <div>
-                  <img 
-                    src={fieldLove}
-                    alt="Katie and Corbin"
-                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
-                  />
-                  <h2 className="text-4xl mt-5">
-                    Katie and Corbin
-                  </h2>
-                  <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <Link 
-                      to="/portfolio#katie-corbin" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
-                    >
-                      View Gallery
-                    </Link>
+              <div className="lg:flex-column">
+                <div className="lg:flex md:flex content-center items-center text-center justify-center">
+                  <div>
+                    <img 
+                      src={fieldLove}
+                      alt="Katie and Corbin"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Katie and Corbin
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#katie-corbin" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
+                  </div>
+                  <div>
+                    <img 
+                      src={weddingFlowers}
+                      alt="Elise and Braxton"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Elise and Braxton
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#elise-braxton" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
+                  </div>
+                  <div>
+                    <img 
+                      src={jennaBrianHome}
+                      alt="Jenna and Brian"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Jenna and Brian
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#jenna-brian" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <img 
-                    src={weddingFlowers}
-                    alt="Elise and Braxton"
-                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
-                  />
-                  <h2 className="text-4xl mt-5">
-                    Elise and Braxton
-                  </h2>
-                  <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <Link 
-                      to="/portfolio#elise-braxton" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
-                    >
-                      View Gallery
-                    </Link>
+                <div className="lg:flex md:flex content-center items-center text-center justify-center">
+                  <div>
+                    <img 
+                      src={brickAshleyHome}
+                      alt="Brick and Ashley"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Brick and Ashley
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#brick-ashley" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
                   </div>
-                </div>
-                <div>
-                  <img 
-                    src={behindHug}
-                    alt="Sarah and Adam"
-                    className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
-                  />
-                  <h2 className="text-4xl mt-5">
-                    Sarah and Adam
-                  </h2>
-                  <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
-                    <Link 
-                      to="/portfolio#sarah-adam" 
-                      className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
-                    >
-                      View Gallery
-                    </Link>
+                  <div>
+                    <img 
+                      src={shelbyJaredHome}
+                      alt="Katie and Corbin"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Shelby and Jared
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#shelby-jared" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
+                  </div>
+                  <div>
+                    <img 
+                      src={sydneyCalebHome}
+                      alt="Sydney and Caleb"
+                      className="lg:m-10 md:m-5 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    />
+                    <h2 className="text-4xl mt-5">
+                      Sydney and Caleb
+                    </h2>
+                    <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                      <Link 
+                        to="/portfolio#sydney-caleb" 
+                        className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                      >
+                        View Gallery
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -303,70 +388,248 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="sarah-adam" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+          <section id="jenna-brian" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
-              Sarah and Adam
+              Jenna and Brian
             </h1><br/>
             <h3 className="text-center text-gray-500 lg:text-3xl">
-              intimate elopement in the woods. strong. passionate. tranquil.
+              ???
             </h3>
             <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
-            <div className="lg:flex">
+            <div className="lg:flex-column">
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian1}
+                  alt="Jenna and Brian 1"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
               <div className="lg:flex">
                 <div className="lg:m-2">
                   <img 
-                    src={sarahAdam1}
-                    alt="Sarah and Adam 1"
+                    src={jennaBrian2}
+                    alt="Jenna and Brian 2"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
                 <div className="lg:m-2">
                   <img 
-                    src={sarahAdam2}
-                    alt="Sarah and Adam 2"
+                    src={jennaBrian3}
+                    alt="Jenna and Brian 3"
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
               </div>
             </div>
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian4}
+                  alt="Jenna and Brian 4"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian5}
+                  alt="Jenna and Brian 5"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian6}
+                  alt="Jenna and Brian 6"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian7}
+                  alt="Jenna and Brian 7"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={jennaBrian8}
+                  alt="Jenna and Brian 8"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+          </section>
+        </FadeInSection>
+        <FadeInSection>
+          <section id="brick-ashley" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+            <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+              Brick and Ashley
+            </h1><br/>
+            <h3 className="text-center text-gray-500 lg:text-3xl">
+              ???
+            </h3>
+            <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={brickAshley5}
+                  alt="Brick and Ashley 5"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={brickAshley2}
+                  alt="Brick and Ashley 2"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={brickAshley3}
+                  alt="Brick and Ashley 3"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+            <div className="">
+              <img 
+                src={brickAshley4}
+                alt="Brick and Ashley 4"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
+            </div>
             <div className="lg:m-2">
               <img 
-                src={sarahAdam3}
-                alt="Sarah and Adam 3"
+                src={brickAshley6}
+                alt="Brick and Ashley 6"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
+            </div>
+          </section>
+        </FadeInSection>
+        <FadeInSection>
+          <section id="shelby-jared" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+            <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+              Shelby and Jared
+            </h1><br/>
+            <h3 className="text-center text-gray-500 lg:text-3xl">
+              ???
+            </h3>
+            <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
+            <div className="">
+              <img 
+                src={shelbyJared1}
+                alt="Shelby and Jared 1"
                 className="items-center content-center lg:m-4 mb-4 "
               />
             </div>
             <div className="lg:flex">
               <div className="lg:m-2">
                 <img 
-                  src={sarahAdam4}
-                  alt="Sarah and Adam 4"
+                  src={shelbyJared2}
+                  alt="Shelby and Jared 2"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
               <div className="lg:m-2">
                 <img 
-                  src={sarahAdam5}
-                  alt="Sarah and Adam 5"
+                  src={shelbyJared3}
+                  alt="Shelby and Jared 3"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
             </div>
+            <div className="">
+              <img 
+                src={shelbyJared4}
+                alt="Shelby and Jared 4"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
+            </div>
             <div className="lg:flex">
               <div className="lg:m-2">
                 <img 
-                  src={sarahAdam6}
-                  alt="Sarah and Adam 6"
+                  src={shelbyJared5}
+                  alt="Shelby and Jared 5"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
               <div className="lg:m-2">
                 <img 
-                  src={sarahAdam7}
-                  alt="Sarah and Adam 7"
+                  src={shelbyJared6}
+                  alt="Shelby and Jared 6"
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
+            </div>
+          </section>
+        </FadeInSection>
+        <FadeInSection>
+          <section id="sydney-caleb" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+            <h1 className="text-center mt-5 lg:text-7xl text-5xl">
+              Sydney and Caleb
+            </h1><br/>
+            <h3 className="text-center text-gray-500 lg:text-3xl">
+              ???
+            </h3>
+            <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
+            <div className="">
+              <img 
+                src={sydneyCaleb1}
+                alt="Sydney and Caleb 1"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
+            </div>
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={sydneyCaleb2}
+                  alt="Sydney and Caleb 2"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={sydneyCaleb3}
+                  alt="Sydney and Caleb 3"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+            <div className="">
+              <img 
+                src={sydneyCaleb4}
+                alt="Sydney and Caleb 4"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
+            </div>
+            <div className="lg:flex">
+              <div className="lg:m-2">
+                <img 
+                  src={sydneyCaleb5}
+                  alt="Sydney and Caleb 5"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+              <div className="lg:m-2">
+                <img 
+                  src={sydneyCaleb6}
+                  alt="Sydney and Caleb 6"
+                  className="items-center content-center lg:m-4 mb-4 "
+                />
+              </div>
+            </div>
+            <div className="lg:m-2">
+              <img 
+                src={sydneyCaleb7}
+                alt="Sydney and Caleb 7"
+                className="items-center content-center lg:m-4 mb-4 "
+              />
             </div>
           </section>
         </FadeInSection>
