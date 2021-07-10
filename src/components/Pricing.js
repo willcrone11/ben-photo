@@ -210,11 +210,11 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-3xl text-xl list-disc">
-                      <li>1 Outfit, One Location</li><br/>
+                      <li>1 Outfit, 1 Location</li><br/>
                       <li>About 1 Hour</li><br/>
                       <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
                       <li>Personal Online Gallery</li><br/>
-                      <li>For One Couple</li><br/>
+                      <li>For 1 Couple</li><br/>
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
@@ -230,7 +230,7 @@ export default function Pricing() {
                       <li>About 2 Hours</li><br/>
                       <li>Personal Online Gallery</li><br/>
                       <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
-                      <li>For One Couple</li><br/>
+                      <li>For 1 Couple</li><br/>
                       <li>30% off Your Next Couples Session</li><br/>
                     </ul>
                   </div>
@@ -312,11 +312,11 @@ export default function Pricing() {
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-3xl text-xl list-disc">
-                      <li>1 Outfit, One Location</li><br/>
+                      <li>1 Outfit, 1 Location</li><br/>
                       <li>About 1 Hour</li><br/>
                       <li>All Images Edited and Delivered (about 80-120 photos)</li><br/>
                       <li>Personal Online Gallery</li><br/>
-                      <li>For One Couple</li><br/>
+                      <li>For 1 Couple</li><br/>
                     </ul>
                   </div>
                   <div className="flex-column text-center p-8">
@@ -332,7 +332,7 @@ export default function Pricing() {
                       <li>About 2 Hours</li><br/>
                       <li>Personal Online Gallery</li><br/>
                       <li>All Images Edited and Delivered (about 120-160 photos)</li><br/>
-                      <li>For One Couple</li><br/>
+                      <li>For 1 Couple</li><br/>
                       <li>30% off Your Next Couples or Engagement Session</li><br/>
                     </ul>
                   </div>
