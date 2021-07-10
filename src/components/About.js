@@ -128,10 +128,10 @@ export default function About() {
                 It’s not just about the awesome 
                 couples I get to meet or the crazy experiences I get to be a part of 
                 (although they help). What really drives me is the high I feel when I get 
-                to witness two people madly in love start another chapter of their life. 
+                to witness two people madly in love start another chapter of their lives. 
                 <br/><br/>
                 Having the opportunity to peer inside of a love story warms my body to the 
-                bones and the energy it puts off fills me with joy. 
+                bones and the energy it puts off fills me with immense joy. 
                 </p>
                 <br/>
             </div>
