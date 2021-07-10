@@ -28,15 +28,15 @@ export default function HomeInfo() {
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
               <div className="lg:content-center lg:items-center text-center md:p-2">
-                <p className="lg:text-3xl md:text-2xl text-xl 2xl:text-5xl">
+                <p className="lg:text-3xl md:text-2xl text-lg 2xl:text-5xl mb-5">
                   Thanks for stopping by our website! We hope you find us to be a match
                   for your wedding, engagement, or couple photos.
                   <br/><br/>
                   If you like what you see,
                   shoot us a message by clicking the button below!
                 </p>
-                <br/><br/>
-                <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center md:text-xl text-2xl text-center mt-5 mb-5">
+                <br/>
+                <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center md:text-xl text-lg text-center lg:mt-5 mb-5">
                   <NavLink 
                     to="/contact" 
                     className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -45,8 +45,8 @@ export default function HomeInfo() {
                   </NavLink>
                   <br/><br/>
                 </div>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                <p className="lg:text-5xl text-3xl">
+                <hr style={{ borderTop: "solid black 1px" }} className="m-5 md:mb-5 mb-2" />
+                <p className="lg:text-5xl text-3xl mb-4">
                   We can't wait to hear from you!
                 </p>
               </div>
