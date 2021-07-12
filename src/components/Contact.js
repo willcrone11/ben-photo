@@ -32,11 +32,11 @@ export default function Contact() {
                   className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
-                  <p className="text-center 2xl:text-8xl lg:text-6xl md:text-4xl text-4xl">
+                  <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-4xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
-                  <p className="text-center 2xl:text-4xl lg:text-3xl md:text-2xl text-xl">
+                  <p className="text-center 2xl:text-4xl xl:text-3xl lg:text-xl md:text-2xl text-xl">
                     Beforehand, we recommend checking out our package
                     details, as transparency is key in our relationship.
                   </p>
@@ -50,11 +50,11 @@ export default function Contact() {
                         </NavLink>
                   </div>
                   <hr style={{ borderTop: "solid black 1px" }} className="m-10" />
-                  <p className="text-center lg:mt-10 lg:text-5xl text-xl">
+                  <p className="text-center lg:mt-10 xl:text-5xl lg:text-3xl text-xl">
                     Once you're ready, fill out the contact form below!
                   </p>
                   <div className="flex content-center items-center text-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce lg:w-20 lg:h-20 h-12 w-12 lg:mt-14 mt-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="animate-bounce xl:w-20 xl:h-20 h-12 w-12 lg:mt-14 mt-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 17l-4 4m0 0l-4-4m4 4V3" />
                     </svg>
                   </div>
@@ -77,14 +77,14 @@ export default function Contact() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 mt-10">
-            <div className="lg:flex">
+            <div className="xl:flex">
               <img 
                 src={weddingParty}
                 alt="Wedding Party"
-                className="lg:m-4  lg:w-2/5 lg:h-2/5 xl:w-3/5 xl:h-3/5"
+                className="xl:m-4 xl:w-2/5 xl:h-2/5 xl:w-3/5 xl:h-3/5"
               />
               <div className="flex-column p-3">
-                <h1 className="2xl:text-7xl lg:text-5xl text-4xl">
+                <h1 className="2xl:text-6xl lg:text-5xl text-4xl">
                   The next steps...
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-3" />
@@ -93,7 +93,7 @@ export default function Contact() {
                   In the next 48 hours...
                 </h3>
                 <br/>
-                <p className="2xl:text-2xl lg:text-xl text-md">
+                <p className="2xl:text-2xl lg:text-xl text-md 2xl:mb-4">
                   we will send you a reply. if we don’t get back to you, 
                   contact us at benjaminbrittonphotography@gmail.com because 
                   something went wrong. 
@@ -114,7 +114,7 @@ export default function Contact() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
-            <div className="lg:flex">
+            <div className="xl:flex">
               <div className="2xl:p-12 xl:p-12">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">
                   We Can't Wait to Meet You!

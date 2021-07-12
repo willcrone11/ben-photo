@@ -42,7 +42,7 @@ export default function About() {
               className="rounded lg:w-80 lg:auto md:w-80 md:auto"
               alt={author.name}
             />
-            <div className="text-lg flex flex-col justify-center lg:ml-28 ">
+            <div className="text-lg flex flex-col justify-center lg:ml-28 md:m-5">
               <h1 className="cursive text-6xl text-black mb-12 mt-5 text-center">
                 Hey there, I'm{" "}
                 <span>
@@ -63,8 +63,8 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose 2xl:text-5xl lg:text-4xl md:text-2xl p-5 text-xl content-center items-center">
-              <h1 className="2xl:text-8xl lg:text-7xl text-3xl">
+            <div className="prose 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+              <h1 className="2xl:text-8xl xl:text-7xl lg:text-5xl md:text-5xl text-3xl">
                 Some ways to describe myself...
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-10 mt-5 mb-5" />
@@ -119,9 +119,9 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
-            <div className="lg:flex md:flex md:p-12 lg:p-5 2xl:p-14">
-              <p className="2xl:text-2xl lg:text-2xl text-xl lg:content-center lg:items-center text-left">
-                <span className="2xl:text-6xl lg:text-4xl">
+            <div className="lg:flex md:flex md:p-2 lg:p-5 2xl:p-14">
+              <p className="2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-xl lg:content-center lg:items-center text-left">
+                <span className="2xl:text-6xl md:text-2xl lg:text-4xl">
                   When I say I love my job... I LOVE my job. 
                 </span>
                 <br/><br/>
@@ -151,7 +151,7 @@ export default function About() {
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
             <div className="lg:p-16 2xl:p-16 xl:p-16">
-              <div className="2xl:text-5xl lg:text-4xl text-xl lg:flex lg:content-center lg:items-center text-center">
+              <div className="2xl:text-5xl xl:text-4xl lg:text-xl text-xl lg:flex lg:content-center lg:items-center text-center">
                 <p>
                   Among everything that makes me me, the enjoyment in documenting 
                   love stories is one of my favorites.

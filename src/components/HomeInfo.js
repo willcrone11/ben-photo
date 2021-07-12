@@ -16,11 +16,11 @@ export default function HomeInfo() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xl:flex p-5">
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
-              className="lg:m-10 lg:m-5 mb-5 lg:w-2/5 lg:h-2/5 2xl:w-2/5 2xl:h-2/5 md:w-3/5 md:h-3/5"
+              className="xl:m-10 xl:m-5 mb-5 xl:w-2/5 xl:h-2/5 2xl:w-2/5 2xl:h-2/5"
             />
             <div className="lg:p-10 xl:p-12 2xl:p-16">
               <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
@@ -65,9 +65,9 @@ export default function HomeInfo() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xl:flex p-5 mt-10">
             <div className="lg:p-6 2xl:p-12">
-              <div className="text-5xl 2xl:text-7xl lg:content-center lg:items-center lg:text-left text-center">
+              <div className="text-5xl 2xl:text-7xl lg:text-6xl lg:content-center lg:items-center lg:text-left text-center">
                 <h2>For the wild lovers, wildly in love</h2>
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
@@ -89,7 +89,7 @@ export default function HomeInfo() {
                 </p>
                 <br/><br/>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-5" />
-                <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-2xl text-sm mt-3 mb-8 pt-5">
+                <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-xl text-sm mt-3 pt-5">
                   <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
                       to="/about" 
@@ -124,7 +124,7 @@ export default function HomeInfo() {
             <img 
               src={engagementKiss}
               alt="Engagement Kiss"
-              className="lg:m-10 lg:m-5 mb-5 lg:p-4 lg:w-2/5 lg:h-2/5"
+              className="xl:m-5 mb-5 xl:p-1 xl:w-2/5 xl:h-2/5"
             />
           </section>
         </FadeInSection>
