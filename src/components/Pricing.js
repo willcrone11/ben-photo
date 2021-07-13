@@ -93,7 +93,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="weddings" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
+          <section id="weddings" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column">
                 <img 
@@ -193,7 +193,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="engagements" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
+          <section id="engagements" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column lg:p-10">
                 <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-4xl text-center">
@@ -283,7 +283,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="couples" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-20">
+          <section id="couples" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column">
                 <img 

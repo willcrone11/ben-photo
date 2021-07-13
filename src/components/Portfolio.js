@@ -133,7 +133,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 lg:mt-16 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 lg:mt-16 mt-5">
             <div className="lg:p-20">
               <h1 className="lg:text-7xl text-4xl content-center items-center text-center justify-center">
                 Galleries
@@ -263,7 +263,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="katie-corbin" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+          <section id="katie-corbin" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Katie and Corbin
             </h1><br/>
@@ -320,7 +320,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="elise-braxton" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-28 lg:mt-24 mt-20">
+          <section id="elise-braxton" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-28 lg:mt-24 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Elise and Braxton
             </h1><br/>
@@ -388,7 +388,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="jenna-brian" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 mt-20">
+          <section id="jenna-brian" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-28 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Jenna and Brian
             </h1><br/>
@@ -463,7 +463,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="brick-ashley" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-36 mt-20">
+          <section id="brick-ashley" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 lg:mt-36 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Brick and Ashley
             </h1><br/>
@@ -513,7 +513,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="shelby-jared" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-36 lg:mt-28 mt-20">
+          <section id="shelby-jared" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-36 lg:mt-28 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Shelby and Jared
             </h1><br/>
@@ -570,7 +570,7 @@ export default function Portfolio() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="sydney-caleb" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-52 lg:mt-44 mt-20">
+          <section id="sydney-caleb" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 2xl:mt-52 lg:mt-44 md:mt-20 mt-5">
             <h1 className="text-center mt-5 lg:text-7xl text-5xl">
               Sydney and Caleb
             </h1><br/>
