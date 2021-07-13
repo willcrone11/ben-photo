@@ -197,7 +197,7 @@ export default function Pricing() {
           <section id="engagements" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column lg:p-10">
-                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-4xl text-center">
+                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-5xl text-center">
                   The Engagement Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
