@@ -87,7 +87,7 @@ export default function Pricing() {
                 <img 
                   src={cakeKiss}
                   alt="Cake Kiss"
-                  className="items-center content-center xl:m-4 xl:p-4 mb-4 p-2"
+                  className="items-center content-center xl:m-4 xl:p-4 mb-4"
                 />
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Pricing() {
                 />
               </div>
               <div className="flex-column xl:p-14 lg:p-3">
-                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-4xl text-center">
+                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-5xl text-center">
                   The Wedding Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -168,10 +168,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-8">
+                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center 2xl:text-4xl text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center 2xl:text-4xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -183,7 +183,7 @@ export default function Pricing() {
                 </div>
             </div>
             <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-            <div className="text-2xl xl:text-right">
+            <div className="md:text-2xl text-lg xl:text-right">
               <p>
                 *hourly pricing or additional hours available at a rate of $200 per hour 
               </p>
@@ -241,7 +241,7 @@ export default function Pricing() {
                   *free when you book a wedding
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
-                <div className="text-2xl">
+                <div className="md:text-2xl text-lg">
                   <ul className="list-disc p-3">
                     <li>
                       Package 1 is by far our most popular package and provides the most value!
@@ -255,10 +255,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-8">
+                  <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-xl 2xl:text-4xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center text-xl 2xl:text-4xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -299,7 +299,7 @@ export default function Pricing() {
                 />
               </div>
               <div className="flex-column lg:p-10">
-                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-4xl text-center">
+                <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-5xl text-center">
                   The Couples Package
                 </h1>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
@@ -339,7 +339,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                <div className="text-2xl">
+                <div className="md:text-2xl text-lg">
                   <ul className="list-disc p-3">
                     <li>
                       Package 1 is by far our most popular package and provides the most value!
@@ -353,10 +353,10 @@ export default function Pricing() {
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
-                  <h1 className="2xl:text-6xl lg:text-5xl text-3xl lg:mb-16 mb-8">
+                  <h1 className="2xl:text-6xl lg:text-5xl text-3xl lg:mb-16 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center 2xl:text-3xl text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center 2xl:text-3xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
