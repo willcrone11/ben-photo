@@ -32,7 +32,7 @@ export default function Contact() {
                   className="items-center content-center mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
-                  <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-4xl">
+                  <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-5xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
