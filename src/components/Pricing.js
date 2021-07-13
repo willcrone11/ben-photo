@@ -32,6 +32,7 @@ export default function Pricing() {
                 <h1 className="xl:text-6xl lg:text-5xl 2xl:text-8xl text-4xl">
                   Ok, the details...
                 </h1>
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-3" />
                 <p className="2xl:text-4xl xl:text-3xl lg:text-base text-xl lg:p-6 mt-3">
                   Before you ask me to be your third wheel, you probably want to know what 
                   you’re getting and for how much!

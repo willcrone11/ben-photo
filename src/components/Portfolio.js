@@ -78,7 +78,7 @@ export default function Portfolio() {
                 <h1 className="2xl:text-8xl xl:text-7xl lg:text-4xl text-4xl">
                   Their Moments, Their Story, Their Love
                 </h1>
-                <hr style={{ borderTop: "solid black 1px" }} className="2xl:mb-0 mb-10 mt-5" />
+                <hr style={{ borderTop: "solid black 1px" }} className="2xl:mb-0 md:mb-10 mt-5" />
                 <p className="2xl:text-5xl xl:text-4xl lg:text-3xl text-xl 2xl:p-8 lg:p-3 mt-3 mb-3">
                   It’s always been our philosophy that a photographer is only as good 
                   as the last photo they took. 
@@ -86,7 +86,7 @@ export default function Portfolio() {
                   Look through our galleries below to see if we might be a fit for your Wedding, 
                   Engagement, or Couples session!
                 </p>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
                 <div className="items-center content-center justify-center text-center 2xl:text-4xl xl:text-4xl lg:text-2xl text-xl">
                   <p>
                     Don't forget to check us out on Instagram and Facebook for even more content!

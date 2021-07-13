@@ -76,7 +76,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 md:mt-10 mt-5">
             <div className="xl:flex">
               <img 
                 src={weddingParty}
@@ -113,7 +113,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5">
             <div className="xl:flex">
               <div className="2xl:p-12 xl:p-12">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">

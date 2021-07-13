@@ -62,7 +62,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5 md:flex lg:flex">
             <div className="prose 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-2xl p-5 text-xl content-center items-center">
               <h1 className="2xl:text-8xl xl:text-7xl lg:text-5xl md:text-5xl text-3xl">
                 Some ways to describe myself...
@@ -84,7 +84,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-10 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-10 md:mt-10 mt-5">
             <div>
               <h1 className="animate-wiggle text-6xl text-center">
                 Quirky
@@ -94,7 +94,7 @@ export default function About() {
                 /ˈKWƏRKĒ/ /ˈKWƏRKI/ │ ADJECTIVE
               </h2>
             </div>
-            <div className="lg:pl-44 pt-5 lg:text-left text-center lg:text-3xl text-xl">
+            <div className="lg:pl-44 pt-5 lg:text-left md:text-center lg:text-3xl text-xl">
               <p>
                 Strange in a somewhat silly, awkward manner; strikingly unconventional.
               </p>
@@ -103,7 +103,7 @@ export default function About() {
                 Synonyms: Off-beat, Curious, just Weird! 
               </p>
               <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
-              <p className="lg:text-2xl text-xl lg:text-left text-center">
+              <p className="lg:text-2xl text-lg lg:text-left">
                 Over the years, I have grown to accept the quirkiness I bring to the table, if not to make others laugh, to give myself a good smile. 
               </p>
             </div>
@@ -118,10 +118,10 @@ export default function About() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 mt-10">
-            <div className="lg:flex md:flex md:p-2 lg:p-5 2xl:p-14">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 md:mt-10 mt-5">
+            <div className="lg:flex md:flex p-2 md:p-2 lg:p-5 2xl:p-14">
               <p className="2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-xl lg:content-center lg:items-center text-left">
-                <span className="2xl:text-6xl md:text-2xl lg:text-4xl">
+                <span className="2xl:text-6xl md:text-2xl lg:text-4xl text-3xl">
                   When I say I love my job... I LOVE my job. 
                 </span>
                 <br/><br/>
@@ -144,14 +144,14 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 md:mt-10 mt-5">
             <img 
               src={amongEverything}
               alt="Lovers Dancing"
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
             <div className="lg:p-16 2xl:p-16 xl:p-16">
-              <div className="2xl:text-5xl xl:text-4xl lg:text-xl text-xl lg:flex lg:content-center lg:items-center text-center">
+              <div className="2xl:text-5xl xl:text-4xl lg:text-xl text-xl lg:flex lg:content-center lg:items-center">
                 <p>
                   Among everything that makes me me, the enjoyment in documenting 
                   love stories is one of my favorites.
