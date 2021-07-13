@@ -16,19 +16,19 @@ export default function HomeInfo() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xl:flex p-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
             <img 
               src={weddingKiss}
               alt="Wedding Kiss"
-              className="xl:m-10 xl:m-5 mb-5 xl:w-2/5 xl:h-2/5 2xl:w-2/5 2xl:h-2/5"
+              className="xl:m-10 xl:m-5 mb-5 lg:w-2/5 lg:h-2/5 xl:w-2/5 xl:h-2/5 2xl:w-2/5 2xl:h-2/5"
             />
-            <div className="lg:p-10 xl:p-12 2xl:p-16">
-              <div className="lg:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
+            <div className="lg:p-6 xl:p-12 2xl:p-16">
+              <div className="lg:text-5xl xl:text-7xl 2xl:text-8xl text-5xl lg:content-center lg:items-center text-center">
                 <h2>Hey there!</h2>
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
               <div className="lg:content-center lg:items-center text-center md:p-2">
-                <p className="lg:text-3xl md:text-2xl text-lg 2xl:text-5xl mb-5">
+                <p className="lg:text-xl xl:text-3xl md:text-2xl text-lg 2xl:text-5xl mb-5">
                   Thanks for stopping by our website! We hope you find us to be a match
                   for your wedding, engagement, or couple photos.
                   <br/><br/>
@@ -46,7 +46,7 @@ export default function HomeInfo() {
                   <br/><br/>
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-5 md:mb-5 mb-2" />
-                <p className="lg:text-5xl text-3xl mb-4">
+                <p className="lg:text-4xl xl:text-5xl text-3xl mb-4">
                   We can't wait to hear from you!
                 </p>
               </div>
@@ -65,14 +65,14 @@ export default function HomeInfo() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xl:flex p-5 mt-10">
-            <div className="lg:p-6 2xl:p-12">
-              <div className="text-5xl 2xl:text-7xl lg:text-6xl lg:content-center lg:items-center lg:text-left text-center">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5 mt-10">
+            <div className="xl:p-6 lg:p-2 2xl:p-12">
+              <div className="text-5xl 2xl:text-7xl xl:text-6xl lg:text-4xl lg:content-center lg:items-center lg:text-left text-center">
                 <h2>For the wild lovers, wildly in love</h2>
               </div>
               <hr style={{ borderTop: "solid black 1px" }} className="mt-5 mb-5" />
               <div className="lg:content-center lg:items-center text-left">
-                <p className="text-xl 2xl:text-2xl">
+                <p className="text-xl lg:text-sm xl:text-xl 2xl:text-2xl">
                   Whether you’re looking for a wedding, engagement, or casual session with 
                   your partner, we’re glad to have you consider us!
                   <br/><br/>
@@ -87,9 +87,8 @@ export default function HomeInfo() {
                   as well as looking through our portfolio. if you feel confident that we’re the 
                   ones, send us a message through the contact page. 
                 </p>
-                <br/><br/>
-                <hr style={{ borderTop: "solid black 1px" }} className="mt-5" />
-                <div className="flex content-center items-center justify-center text-center lg:text-2xl md:text-2xl xl:text-xl text-sm mt-3 pt-5">
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-5 2xl:mt-16" />
+                <div className="flex content-center items-center justify-center text-center xl:text-2xl lg:text-sm md:text-2xl xl:text-xl text-sm mt-3 pt-5 xl:mb-4 mb-16">
                   <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
                     <NavLink 
                       to="/about" 
@@ -116,15 +115,13 @@ export default function HomeInfo() {
                       Contact
                     </NavLink>
                   </div>
-                  <br/><br/>
                 </div>
               </div>
             </div>
-            <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-12" />
             <img 
               src={engagementKiss}
               alt="Engagement Kiss"
-              className="xl:m-5 mb-5 xl:p-1 xl:w-2/5 xl:h-2/5"
+              className="xl:m-5 mb-5 xl:p-1 lg:p-5 lg:w-2/5 lg:h-2/5"
             />
           </section>
         </FadeInSection>
@@ -147,12 +144,12 @@ export default function HomeInfo() {
                 Pricing and Packages
               </h1>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <div className="lg:flex md:flex content-center items-center text-center justify-center lg:ml-6">
+              <div className="lg:flex md:flex content-center items-center text-center justify-center">
                 <div>
                   <img 
                     src={weddingFlowers}
                     alt="Wedding Couple"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Weddings
@@ -174,7 +171,7 @@ export default function HomeInfo() {
                   <img 
                     src={engagementPortal}
                     alt="Field Love"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Engagements
@@ -196,7 +193,7 @@ export default function HomeInfo() {
                   <img 
                     src={couplesPortal}
                     alt="Pillow Fight"
-                    className="lg:m-10 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
+                    className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
                     Couples
@@ -215,7 +212,7 @@ export default function HomeInfo() {
                   </div>
                 </div>
               </div>
-              <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
+              <hr style={{ borderTop: "solid black 1px" }} className="mt-5" />
             </div>
           </section>
         </FadeInSection>
@@ -246,8 +243,8 @@ export default function HomeInfo() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
-            <div className="lg:flex">
-              <div className="2xl:p-12 xl:p-12">
+            <div className="xl:flex">
+              <div className="2xl:p-12 xl:p-12 lg:p-6">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">
                   We Can't Wait to Meet You!
                 </h1>

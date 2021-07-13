@@ -63,7 +63,7 @@ export default function About() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10 md:flex lg:flex">
-            <div className="prose 2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl p-5 text-xl content-center items-center">
+            <div className="prose 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-2xl p-5 text-xl content-center items-center">
               <h1 className="2xl:text-8xl xl:text-7xl lg:text-5xl md:text-5xl text-3xl">
                 Some ways to describe myself...
               </h1>
@@ -79,7 +79,7 @@ export default function About() {
             <img 
               src={benSideView}
               alt="Ben Side View"
-              className="lg:m-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:p-6 md:h-3/5 mt-10"
+              className="xl:m-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:p-6 md:h-3/5 mt-10"
             />
           </section>
         </FadeInSection>

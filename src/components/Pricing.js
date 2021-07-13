@@ -27,12 +27,12 @@ export default function Pricing() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
-            <div className="xl:flex">
+            <div className="lg:flex">
               <div className="flex-column 2xl:p-8 xl:p-8 xl:p-8">
-                <h1 className="xl:text-6xl lg:text-6xl 2xl:text-8xl text-4xl">
+                <h1 className="xl:text-6xl lg:text-5xl 2xl:text-8xl text-4xl">
                   Ok, the details...
                 </h1>
-                <p className="2xl:text-4xl xl:text-3xl lg:text-3xl text-xl lg:p-6 mt-3">
+                <p className="2xl:text-4xl xl:text-3xl lg:text-base text-xl lg:p-6 mt-3">
                   Before you ask me to be your third wheel, you probably want to know what 
                   you’re getting and for how much!
                   <br/><br/>
@@ -51,7 +51,7 @@ export default function Pricing() {
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="lg:mb-3 mt-5" />
                 <div className="content-center items-center justify-center text-center lg:ml-6 pt-4">
-                  <h1 className="2xl:text-7xl xl:text-5xl lg:text-5xl text-3xl 2xl:mb-8">
+                  <h1 className="2xl:text-7xl xl:text-5xl lg:text-3xl text-3xl 2xl:mb-8">
                     Jump to...
                   </h1>
                 </div>
@@ -86,7 +86,7 @@ export default function Pricing() {
                 <img 
                   src={cakeKiss}
                   alt="Cake Kiss"
-                  className="items-center content-center lg:m-4 mb-4 p-2"
+                  className="items-center content-center xl:m-4 xl:p-4 mb-4 p-2"
                 />
               </div>
             </div>

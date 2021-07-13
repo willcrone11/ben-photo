@@ -24,12 +24,12 @@ export default function Contact() {
         </FadeInSection>
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
-            <div className="content-center items-center justify-center lg:ml-6 md:ml-3 pt-4">
+            <div className="content-center items-center justify-center md:ml-3 pt-4">
               <div className="lg:flex md:flex">
                 <img 
                   src={flowerKiss}
                   alt="Flower Kiss"
-                  className="items-center content-center lg:m-5 mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
+                  className="items-center content-center mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
                   <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-4xl">
