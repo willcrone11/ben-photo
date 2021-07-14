@@ -10,11 +10,11 @@ export default function Home() {
   
   return (
     <main>
-      <div className="2xl:mb-164 lg:mb-72 md:mb-72 sm:mb-72 xs:mb-20 mb-12">
+      <div className="2xl:mb-164 lg:mb-72 md:mb-72 sm:mb-72 xs:mb-20 xxs:mb-2 mb-12">
         <img src={homepageBackground} alt="portrait" className="md:fixed absolute bg-fixed" />
         <section className="relative opacity-80 justify-center content-center items-center pt-12 px-8">
           <div className="bg-white lg:mt-10 lg:p-12 justify-center content-center items-center text-center">
-            <h1 className="2xl:text-8xl lg:text-6xl md:text-6xl text-4xl cursive text-black leading-none lg:leading-snug home-name">
+            <h1 className="2xl:text-8xl lg:text-6xl md:text-6xl xxs:text-2xl text-4xl cursive text-black leading-none lg:leading-snug home-name">
               Benjamin Britton Photography
             </h1>
             <p className="2xl:text-2xl lg:text-xl text-base">

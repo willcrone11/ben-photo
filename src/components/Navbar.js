@@ -22,7 +22,7 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start xs:ml-0 xxs:ml-10">
                 <div className="flex-shrink-0 flex items-center">
                   <NavLink to="/" exact>
                     <img

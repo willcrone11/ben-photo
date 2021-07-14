@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      //'xxs': '250px',
+      'xxs': '250px',
       'xs': '375px',
       ...defaultTheme.screens,
     },

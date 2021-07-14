@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <main className="relative bg-gray-100">
-      <div className="lg:p-10 p-1 container mx-auto relative">
+      <div className="lg:p-10 p-1 xs:container mx-auto relative">
         <FadeInSection>
           <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Contact Us!
@@ -32,7 +32,7 @@ export default function Contact() {
                   className="items-center content-center mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
-                  <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl text-5xl">
+                  <p className="text-center 2xl:text-8xl xl:text-6xl lg:text-5xl md:text-4xl xs:text-5xl xxs:text-3xl">
                     We’re so stoked you’re ready to chat!
                   </p>
                     <br/><br/> 
@@ -41,10 +41,10 @@ export default function Contact() {
                     details, as transparency is key in our relationship.
                   </p>
                   <br/>
-                  <div className="text-center transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 mt-10 mb-10">
                         <NavLink 
                           to="/pricing" 
-                          className="lg:text-2xl md:text-xl text-lg bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
+                          className="lg:text-2xl md:text-xl xs:text-lg xxs:text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
                         >
                           Pricing and Packages
                         </NavLink>
@@ -64,15 +64,13 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-10">
-            <div>
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xs:p-5 mt-10">
               <div className="contact-background content-center items-center text-center justify-center lg:ml-6 pt-4">
                 <h1 className="lg:text-6xl text-3xl bg-gray-200 p-8 lg:ml-48 ml-4 lg:mr-48 mr-4 mb-4">
                   Are you ready to do this!?
                 </h1>
                 <ContactForm />
               </div>
-            </div>
           </section>
         </FadeInSection>
         <FadeInSection>
@@ -83,7 +81,7 @@ export default function Contact() {
                 alt="Wedding Party"
                 className="xl:m-4 xl:w-2/5 xl:h-2/5 xl:w-3/5 xl:h-3/5"
               />
-              <div className="flex-column p-3">
+              <div className="flex-column xs:p-3 xxs:p-0 xxs:mt-2 sm:mt-0">
                 <h1 className="2xl:text-6xl lg:text-5xl text-4xl">
                   The next steps...
                 </h1>
@@ -93,7 +91,7 @@ export default function Contact() {
                   In the next 48 hours...
                 </h3>
                 <br/>
-                <p className="2xl:text-2xl lg:text-xl text-md 2xl:mb-4">
+                <p className="2xl:text-2xl lg:text-xl xs:text-base xxs:text-xs 2xl:mb-4">
                   we will send you a reply. if we don’t get back to you, 
                   contact us at benjaminbrittonphotography@gmail.com because 
                   something went wrong. 
@@ -103,7 +101,7 @@ export default function Contact() {
                   Set up a wedding consult
                 </h3>
                 <br/>
-                <p className="2xl:text-2xl lg:text-xl text-md">
+                <p className="2xl:text-2xl lg:text-xl xs:text-base xxs:text-xs">
                   if this is a wedding and you’re ready for booking, we will setup a consult 
                   to learn more about you, talk about the details of your wedding, and exchange 
                   a deposit of $175 to reserve your date. 

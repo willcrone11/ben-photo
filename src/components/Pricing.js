@@ -18,7 +18,7 @@ export default function Pricing() {
   
   return (
     <main className="relative bg-gray-100">
-      <div className="lg:p-10 p-1 container mx-auto relative">
+      <div className="lg:p-10 p-1 xs:container mx-auto relative">
         <FadeInSection>
           <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Pricing and Packages
@@ -56,11 +56,11 @@ export default function Pricing() {
                     Jump to...
                   </h1>
                 </div>
-                <div className="flex content-center items-center justify-center lg:p-3">
+                <div className="xs:flex content-center items-center justify-center lg:p-3">
                   <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
-                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
+                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1 xs:mb-0 xxs:mb-3"
                     >
                       Weddings
                     </Link>
@@ -68,7 +68,7 @@ export default function Pricing() {
                   <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
-                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-6 md:m-5 xl:m-6 m-1"
+                      className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-6 md:m-5 xl:m-6 m-1 xs:mb-0 xxs:mb-3"
                     >
                       Engagements
                     </Link>
