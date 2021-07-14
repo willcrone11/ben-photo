@@ -68,7 +68,7 @@ const ContactForm = () => {
         <div className="mb-10">
           <button 
             type="submit"
-            className="hover:opacity-75 bg-blue-500 text-white lg:p-5 p-2 lg:m-5 m-2"
+            className="hover:opacity-75 bg-blue-500 text-white lg:p-5 p-3 lg:m-5 m-2"
           >
             Submit
           </button>
