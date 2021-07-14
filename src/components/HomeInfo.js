@@ -14,7 +14,7 @@ import FadeInSection from './FadeInSection';
 export default function HomeInfo() {
   return (
     <main className="relative bg-gray-100">
-      <div className="lg:p-10 p-1 xs:container mx-auto relative">
+      <div className="lg:p-10 p-1 sm:container mx-auto relative">
         <FadeInSection>
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
             <img 

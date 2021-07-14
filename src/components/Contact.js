@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <main className="relative bg-gray-100">
-      <div className="lg:p-10 p-1 xs:container mx-auto relative">
+      <div className="lg:p-10 p-1 sm:container mx-auto relative">
         <FadeInSection>
           <h1 className="text-center mt-5 2xl:text-8xl lg:text-7xl text-5xl">
             Contact Us!
