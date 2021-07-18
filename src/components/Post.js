@@ -37,7 +37,7 @@ export default function Post() {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {postData && postData.map((post, index) => (
-            <article className="transition duration-500 ease-in-out transform hover:scale-110">
+            <article className="transition duration-500 ease-in-out transform lg:hover:scale-110">
               <Link 
                 to={"/post/" + post.slug.current} 
                 key={post.slug.current}

@@ -26,7 +26,7 @@ export default function Pricing() {
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="lg:flex">
               <div className="flex-column 2xl:p-8 xl:p-8 xl:p-8">
                 <h1 className="xl:text-6xl lg:text-5xl 2xl:text-8xl text-4xl">
@@ -94,7 +94,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="weddings" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
+          <section id="weddings" className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column">
                 <img 
@@ -194,7 +194,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="engagements" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
+          <section id="engagements" className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column lg:p-10">
                 <h1 className="2xl:text-8xl xl:text-6xl lg:text-6xl md:text-5xl text-5xl text-center">
@@ -284,7 +284,7 @@ export default function Pricing() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section id="couples" className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
+          <section id="couples" className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-20 mt-5">
             <div className="xl:flex">
               <div className="flex-column">
                 <img 

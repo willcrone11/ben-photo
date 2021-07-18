@@ -23,7 +23,7 @@ export default function Contact() {
           <hr style={{ borderTop: "solid black 1px" }} className="mb-10 mt-5" />
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 mt-2">
             <div className="content-center items-center justify-center md:ml-3 pt-4">
               <div className="lg:flex md:flex">
                 <img 
@@ -64,7 +64,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl xs:p-5 mt-10">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl xs:p-5 mt-10">
               <div className="contact-background content-center items-center text-center justify-center lg:ml-6 pt-4">
                 <h1 className="lg:text-6xl text-3xl bg-gray-200 p-8 lg:ml-48 ml-4 lg:mr-48 mr-4 mb-4">
                   Are you ready to do this!?
@@ -74,7 +74,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 md:mt-10 mt-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:p-5 p-3 md:mt-10 mt-5">
             <div className="xl:flex">
               <img 
                 src={weddingParty}
@@ -91,7 +91,7 @@ export default function Contact() {
                   In the next 48 hours...
                 </h3>
                 <br/>
-                <p className="2xl:text-2xl lg:text-xl xs:text-base xxs:text-xs 2xl:mb-4">
+                <p className="2xl:text-2xl lg:text-lg xs:text-base xxs:text-xs 2xl:mb-4">
                   we will send you a reply. if we don’t get back to you, 
                   contact us at benjaminbrittonphotography@gmail.com because 
                   something went wrong. 
@@ -101,7 +101,7 @@ export default function Contact() {
                   Set up a wedding consult
                 </h3>
                 <br/>
-                <p className="2xl:text-2xl lg:text-xl xs:text-base xxs:text-xs">
+                <p className="2xl:text-2xl lg:text-lg xs:text-base xxs:text-xs">
                   if this is a wedding and you’re ready for booking, we will setup a consult 
                   to learn more about you, talk about the details of your wedding, and exchange 
                   a deposit of $175 to reserve your date. 
@@ -111,7 +111,7 @@ export default function Contact() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5">
             <div className="xl:flex">
               <div className="2xl:p-12 xl:p-12">
                 <h1 className="items-center content-center justify-center text-center 2xl:text-8xl lg:text-6xl text-5xl">

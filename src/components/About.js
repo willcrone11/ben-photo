@@ -36,7 +36,7 @@ export default function About() {
     <main className="relative bg-gray-100">
       <div className="lg:p-10 p-1 sm:container mx-auto relative">
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5">
             <img
               src={urlFor(author.authorImage).url()}
               className="rounded lg:w-80 lg:auto md:w-80 md:auto"
@@ -62,7 +62,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5 md:flex lg:flex">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl p-5 md:mt-10 mt-5 md:flex lg:flex">
             <div className="prose 2xl:text-5xl xl:text-4xl lg:text-2xl md:text-2xl p-5 text-xl content-center items-center">
               <h1 className="2xl:text-8xl xl:text-7xl lg:text-5xl md:text-5xl text-3xl">
                 Some ways to describe myself...
@@ -84,7 +84,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-10 md:mt-10 mt-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-10 md:mt-10 mt-5">
             <div>
               <h1 className="animate-wiggle text-6xl text-center">
                 Quirky
@@ -118,7 +118,7 @@ export default function About() {
           </div>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 md:mt-10 mt-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-2 md:mt-10 mt-5">
             <div className="lg:flex md:flex p-2 md:p-2 lg:p-5 2xl:p-14">
               <p className="2xl:text-2xl xl:text-2xl lg:text-xl md:text-lg text-xl lg:content-center lg:items-center text-left">
                 <span className="2xl:text-6xl md:text-2xl lg:text-4xl text-3xl">
@@ -144,7 +144,7 @@ export default function About() {
           </section>
         </FadeInSection>
         <FadeInSection>
-          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 md:hover:scale-105 xl:hover:scale-105 2xl:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 md:mt-10 mt-5">
+          <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 md:mt-10 mt-5">
             <img 
               src={amongEverything}
               alt="Lovers Dancing"
