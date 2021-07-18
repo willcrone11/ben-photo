@@ -241,7 +241,7 @@ export default function Pricing() {
                   *free when you book a wedding
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
-                <div className="md:text-2xl text-lg">
+                <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
                   <ul className="list-disc p-3">
                     <li>
                       Package 1 is by far our most popular package and provides the most value!
@@ -339,7 +339,7 @@ export default function Pricing() {
                   </div>
                 </div>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
-                <div className="md:text-2xl text-lg">
+                <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
                   <ul className="list-disc p-3">
                     <li>
                       Package 1 is by far our most popular package and provides the most value!
