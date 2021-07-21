@@ -57,7 +57,7 @@ export default function Pricing() {
                   </h1>
                 </div>
                 <div className="xs:flex content-center items-center justify-center lg:p-3">
-                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1 xs:mb-0 xxs:mb-3"
@@ -65,7 +65,7 @@ export default function Pricing() {
                       Weddings
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-6 md:m-5 xl:m-6 m-1 xs:mb-0 xxs:mb-3"
@@ -73,7 +73,7 @@ export default function Pricing() {
                       Engagements
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
                     <Link 
                       to="/pricing#couples" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
