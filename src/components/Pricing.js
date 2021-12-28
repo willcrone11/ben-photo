@@ -119,7 +119,7 @@ export default function Pricing() {
                       Pack 1
                     </h3>
                     <h6 className="text-2xl">
-                      $800
+                      $900
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -135,7 +135,7 @@ export default function Pricing() {
                       Pack 2
                     </h3>
                     <h6 className="text-2xl">
-                      $1,400
+                      $1,600
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -152,7 +152,7 @@ export default function Pricing() {
                       Pack 3
                     </h3>
                     <h6 className="text-2xl">
-                      $1650
+                      $1,900
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">

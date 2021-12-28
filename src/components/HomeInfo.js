@@ -156,7 +156,7 @@ export default function HomeInfo() {
                   </h2>
                   <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
                   <h3>
-                    Starting at <span>$175/hr</span>
+                    <span className="font-bold">3</span> packages to choose from!
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
                     <Link 
@@ -178,7 +178,7 @@ export default function HomeInfo() {
                   </h2>
                   <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
                   <h3>
-                    <span>FREE</span> when you book a wedding
+                    <span className="font-bold">FREE</span> when you book a wedding
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
                     <Link 
@@ -200,7 +200,7 @@ export default function HomeInfo() {
                   </h2>
                   <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
                   <h3>
-                    Starting at <span>$150</span>
+                    Starting at <span className="font-bold">$150</span>
                   </h3>
                   <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
                     <Link 
