@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import Logo from '../img/ben-photo-logo.png';
+import Home from '../img/ben-photo-logo.png';
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="flex-shrink-0 flex items-center">
                   <NavLink to="/" exact>
                     <img
-                      src={Logo}
+                      src={Home}
                       style={{width: 250, height: 60 }} 
                       alt="logo"
                     />

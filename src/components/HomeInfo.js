@@ -19,7 +19,7 @@ export default function HomeInfo() {
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
             <img 
               src={weddingKiss}
-              alt="Wedding Kiss"
+              alt="Benjamin Britton Photography"
               className="xl:m-10 xl:m-5 mb-5 lg:w-2/5 lg:h-2/5 xl:w-2/5 xl:h-2/5 2xl:w-2/5 2xl:h-2/5"
             />
             <div className="lg:p-6 xl:p-12 2xl:p-16">
