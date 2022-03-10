@@ -36,6 +36,14 @@ const ContactForm = () => {
         <div className="lg:p-5 p-2 lg:m-5 m-2">
           <label 
             className="lg:mr-4"
+          >
+            location:
+          </label><br/><br/>
+          <input name="location" type="text" id="location" required />
+        </div>
+        <div className="lg:p-5 p-2 lg:m-5 m-2">
+          <label 
+            className="lg:mr-4"
             >
               Email:
           </label><br/><br/>

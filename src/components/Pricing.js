@@ -119,7 +119,7 @@ export default function Pricing() {
                       Pack 1
                     </h3>
                     <h6 className="text-2xl">
-                      $900
+                      $1000
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -135,7 +135,7 @@ export default function Pricing() {
                       Pack 2
                     </h3>
                     <h6 className="text-2xl">
-                      $1,600
+                      $1,800
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -152,7 +152,7 @@ export default function Pricing() {
                       Pack 3
                     </h3>
                     <h6 className="text-2xl">
-                      $1,900
+                      $2,200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -189,6 +189,9 @@ export default function Pricing() {
               </p>
               <p>
                 *15% non-refundable deposit required to book
+              </p>
+              <p>
+                *$75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
               </p>
             </div>
           </section>
@@ -239,6 +242,9 @@ export default function Pricing() {
                 <br/>
                 <p>
                   *free when you book a wedding
+                </p>
+                <p>
+                  $75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
                 <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
@@ -338,6 +344,9 @@ export default function Pricing() {
                     </ul>
                   </div>
                 </div>
+                <p>
+                  $75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
+                </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                 <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
                   <ul className="list-disc p-3">
