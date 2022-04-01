@@ -37,7 +37,7 @@ const ContactForm = () => {
           <label 
             className="lg:mr-4"
           >
-            location:
+            Location:
           </label><br/><br/>
           <input name="location" type="text" id="location" required />
         </div>
