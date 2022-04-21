@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Blog from './components/Blog';
@@ -19,6 +19,9 @@ function App() {
           path='/'
           exact
         />
+        <Route exact path="/home">
+          <Redirect to="/" /> : <Home />
+        </Route>
         <Route 
           component={About}
           path='/about'
