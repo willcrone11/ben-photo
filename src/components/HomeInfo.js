@@ -1,10 +1,10 @@
 import React from 'react';
-import weddingKiss from '../img/wedding-kiss.jpeg';
-import engagementKiss from '../img/engagement-kiss.jpeg';
-import weddingFlowers from '../img/wedding-flowers.jpeg';
-import couplesPortal from '../img/couples-portal.jpeg'
-import engagementPortal from '../img/engagement-portal.jpeg';
-import loversLying from '../img/lovers-lying.jpeg';
+import weddingKiss from '../img/wedding-kiss.webp';
+import engagementKiss from '../img/engagement-kiss.webp';
+import weddingFlowers from '../img/wedding-flowers.webp';
+import couplesPortal from '../img/couples-portal.webp'
+import engagementPortal from '../img/engagement-portal.webp';
+import loversLying from '../img/lovers-lying.webp';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import { SocialIcon } from 'react-social-icons';

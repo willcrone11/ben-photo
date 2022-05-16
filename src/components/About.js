@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import sanityClient from '../client';
 import imageUrlBuilder from '@sanity/image-url';
-import amongEverything from '../img/among-everything.jpeg';
+import amongEverything from '../img/among-everything.webp';
 import benSideView from '../img/ben-sideview.png';
-import manToss from '../img/man-toss.jpeg';
+import manToss from '../img/man-toss.webp';
 import { NavLink } from 'react-router-dom';
 import FadeInSection from './FadeInSection';
 

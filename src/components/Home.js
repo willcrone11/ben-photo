@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import homepageBackground from '../img/homepage-background.jpeg';
+import homepageBackground from '../img/homepage-background.webp';
 import HomeInfo from './HomeInfo';
 
 export default function Home() {

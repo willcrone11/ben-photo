@@ -1,5 +1,5 @@
 import { Disclosure } from '@headlessui/react'
-import Home from '../img/ben-photo-logo.png';
+import Home from '../img/ben-photo-logo.webp';
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';

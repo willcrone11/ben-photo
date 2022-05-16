@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import cakeKiss from '../img/cake-kiss.jpeg';
-import walkingLovers from '../img/walking-lovers.jpeg';
-import holdingHands from '../img/holding-hands.jpeg';
-import fallLovers from '../img/fall-lovers.jpeg';
-import behindKiss from '../img/behind-kiss.png';
-import loversBlanket from '../img/lovers-blanket.png';
-import loversHeadTouch from '../img/lovers-head-touch.png';
+import cakeKiss from '../img/cake-kiss.webp';
+import walkingLovers from '../img/walking-lovers.webp';
+import holdingHands from '../img/holding-hands.webp';
+import fallLovers from '../img/fall-lovers.webp';
+import behindKiss from '../img/behind-kiss.webp';
+import loversBlanket from '../img/lovers-blanket.webp';
+import loversHeadTouch from '../img/lovers-head-touch.webp';
 import FadeInSection from './FadeInSection';
 
 export default function Pricing() {

@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import ContactForm from './ContactForm';
 import { NavLink } from 'react-router-dom';
 import { SocialIcon } from 'react-social-icons';
-import weddingParty from '../img/wedding-party.png';
-import loversLying from '../img/lovers-lying.jpeg';
-import flowerKiss from '../img/flower-kiss.jpeg';
+import weddingParty from '../img/wedding-party.webp';
+import loversLying from '../img/lovers-lying.webp';
+import flowerKiss from '../img/flower-kiss.webp';
 import FadeInSection from './FadeInSection';
 
 export default function Contact() {
