@@ -191,7 +191,7 @@ export default function Pricing() {
                 *15% non-refundable deposit required to book
               </p>
               <p>
-                *$75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
+                *A mileage-based travel fee will be added for events not located in Cuyahoga or an immediately adjacent county
               </p>
             </div>
           </section>
@@ -240,11 +240,11 @@ export default function Pricing() {
                   </div>
                 </div>
                 <br/>
-                <p>
+                <p className="mb-3">
                   *free when you book a wedding
                 </p>
                 <p>
-                  $75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
+                  A mileage-based travel fee will be added for events not located in Cuyahoga or an immediately adjacent county
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-2" />
                 <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
@@ -259,7 +259,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mb-8 mt-3" />
                 <div className="items-center text-center content-center justify-center">
                   <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-10">
                     Ready to Book a Session?
@@ -345,9 +345,9 @@ export default function Pricing() {
                   </div>
                 </div>
                 <p>
-                  $75 travel fee added for events not located in Cuyahoga or an immediately adjacent county
+                  A mileage-based travel fee will be added for events not located in Cuyahoga or an immediately adjacent county
                 </p>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-2 mb-3"/>
                 <div className="2xl:text-2xl xl:text-xl md:text-2xl text-lg">
                   <ul className="list-disc p-3">
                     <li>
@@ -360,7 +360,7 @@ export default function Pricing() {
                     </li>
                   </ul>
                 </div>
-                <hr style={{ borderTop: "solid black 1px" }} className="m-3 mb-8" />
+                <hr style={{ borderTop: "solid black 1px" }} className="mt-3 mb-8" />
                 <div className="items-center text-center content-center justify-center">
                   <h1 className="2xl:text-6xl lg:text-5xl text-3xl lg:mb-16 mb-10">
                     Ready to Book a Session?
