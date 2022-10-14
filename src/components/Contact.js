@@ -28,7 +28,7 @@ export default function Contact() {
               <div className="lg:flex md:flex">
                 <img 
                   src={flowerKiss}
-                  alt="Flower Kiss"
+                  alt=""
                   className="items-center content-center mb-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:h-3/5 md:p-3"
                 />
                 <div className="flex-column">
@@ -41,7 +41,7 @@ export default function Contact() {
                     details, as transparency is key in our relationship.
                   </p>
                   <br/>
-                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-150 mt-10 mb-10">
+                  <div className="text-center transition duration-500 ease-in-out transform lg:hover:scale-110 mt-10 mb-10">
                         <NavLink 
                           to="/pricing" 
                           className="lg:text-2xl md:text-xl xs:text-lg xxs:text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -78,7 +78,7 @@ export default function Contact() {
             <div className="xl:flex">
               <img 
                 src={weddingParty}
-                alt="Wedding Party"
+                alt=""
                 className="xl:m-4 xl:w-2/5 xl:h-2/5 xl:w-3/5 xl:h-3/5"
               />
               <div className="flex-column xs:p-3 xxs:p-0 xxs:mt-2 sm:mt-0">
@@ -130,7 +130,7 @@ export default function Contact() {
                   >
                     <SocialIcon 
                       url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-110"
                       target="_blank" 
                       fgColor="#fff" 
                       style={{ height: 75, width: 75 }}
@@ -139,7 +139,7 @@ export default function Contact() {
                       url="https://www.facebook.com/benjaminbrittonphotography" 
                       target="_blank" 
                       fgColor="#fff" 
-                      className="icon transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon transition duration-500 ease-in-out transform hover:scale-110"
                       style={{ height: 75, width: 75 }}
                     />
                   </div>
@@ -148,7 +148,7 @@ export default function Contact() {
               <div className="lg:flex items-center content-center justify-center lg:m-5 mb-12">
                 <img 
                   src={loversLying}
-                  alt="Lovers Lying"
+                  alt=""
                   className="lg:flex items-center content-center justify-center lg:m-5 mb-4 lg:w-4/5 lg:h-4/5"
                 />
               </div>

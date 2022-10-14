@@ -86,14 +86,14 @@ export default function Navbar() {
               <div className="lg:block hidden md:hidden sm:hidden sm:ml-10">
                 <SocialIcon 
                   url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-150" 
+                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-110" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35 }}
                 />
                 <SocialIcon
                   url="https://www.facebook.com/benjaminbrittonphotography" 
-                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-150" 
+                  className="icon mr-4 transition duration-500 ease-in-out transform hover:scale-110" 
                   target="_blank" 
                   fgColor="#fff" 
                   style={{ height: 35, width: 35, float: 'right' }}

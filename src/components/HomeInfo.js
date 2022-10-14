@@ -19,7 +19,7 @@ export default function HomeInfo() {
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex p-5">
             <img 
               src={weddingKiss}
-              alt="Benjamin Britton Photography"
+              alt=""
               className="xl:m-10 xl:m-5 mb-5 lg:w-2/5 lg:h-2/5 xl:w-2/5 xl:h-2/5 2xl:w-2/5 2xl:h-2/5"
             />
             <div className="lg:p-6 xl:p-12 2xl:p-16">
@@ -36,7 +36,7 @@ export default function HomeInfo() {
                   shoot us a message by clicking the button below!
                 </p>
                 <br/>
-                <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center md:text-xl text-lg text-center lg:mt-5 mb-5">
+                <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 lg:content-center lg:items-center md:text-xl text-lg text-center lg:mt-5 mb-5">
                   <NavLink 
                     to="/contact" 
                     className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -89,7 +89,7 @@ export default function HomeInfo() {
                 </p>
                 <hr style={{ borderTop: "solid black 1px" }} className="mt-5 2xl:mt-16" />
                 <div className="xs:flex content-center items-center justify-center text-center xl:text-2xl lg:text-sm md:text-2xl xl:text-xl text-sm mt-3 pt-5 xl:mb-4 mb-16">
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5 xs:mb-0 xxs:mb-3">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-5 xs:mb-0 xxs:mb-3">
                     <NavLink 
                       to="/about" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 pl-7 pr-7 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -98,7 +98,7 @@ export default function HomeInfo() {
                     </NavLink>
                   </div>
                   <br/>
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5 xs:mb-0 xxs:mb-3">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-5 xs:mb-0 xxs:mb-3">
                     <NavLink 
                       to="/portfolio" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -107,7 +107,7 @@ export default function HomeInfo() {
                     </NavLink>
                   </div>
                   <br/>
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-5">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-5">
                     <NavLink 
                       to="/contact" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -120,7 +120,7 @@ export default function HomeInfo() {
             </div>
             <img 
               src={engagementKiss}
-              alt="Engagement Kiss"
+              alt=""
               className="xl:m-5 mb-5 xl:p-1 lg:p-5 lg:w-2/5 lg:h-2/5"
             />
           </section>
@@ -148,7 +148,7 @@ export default function HomeInfo() {
                 <div>
                   <img 
                     src={weddingFlowers}
-                    alt="Wedding Couple"
+                    alt=""
                     className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
@@ -158,7 +158,7 @@ export default function HomeInfo() {
                   <h3>
                     <span className="font-bold">3</span> packages to choose from!
                   </h3>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                     <Link 
                       to="/pricing#weddings" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -170,7 +170,7 @@ export default function HomeInfo() {
                 <div>
                   <img 
                     src={engagementPortal}
-                    alt="Field Love"
+                    alt=""
                     className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
@@ -180,7 +180,7 @@ export default function HomeInfo() {
                   <h3>
                     <span className="font-bold">FREE</span> when you book a wedding
                   </h3>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                     <Link 
                       to="/pricing#engagements" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -192,7 +192,7 @@ export default function HomeInfo() {
                 <div>
                   <img 
                     src={couplesPortal}
-                    alt="Pillow Fight"
+                    alt=""
                     className="lg:m-8 lg:w-4/5 lg:h-4/5 md:w-4/5 md:h-4/5"
                   />
                   <h2 className="text-4xl mt-5">
@@ -202,7 +202,7 @@ export default function HomeInfo() {
                   <h3>
                     Starting at <span className="font-bold">$200</span>
                   </h3>
-                  <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                  <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                     <Link 
                       to="/pricing#couples" 
                       className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -261,7 +261,7 @@ export default function HomeInfo() {
                   >
                     <SocialIcon 
                       url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-110"
                       target="_blank" 
                       fgColor="#fff" 
                       style={{ height: 75, width: 75 }}
@@ -270,7 +270,7 @@ export default function HomeInfo() {
                       url="https://www.facebook.com/benjaminbrittonphotography" 
                       target="_blank" 
                       fgColor="#fff" 
-                      className="icon transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon transition duration-500 ease-in-out transform hover:scale-110"
                       style={{ height: 75, width: 75 }}
                     />
                   </div>
@@ -279,7 +279,7 @@ export default function HomeInfo() {
               <div className="lg:flex items-center content-center justify-center lg:m-5 mb-12">
                 <img 
                   src={loversLying}
-                  alt="Lovers Lying"
+                  alt=""
                   className="lg:flex items-center content-center justify-center lg:m-5 mb-4 lg:w-4/5 lg:h-4/5"
                 />
               </div>

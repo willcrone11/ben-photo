@@ -78,7 +78,7 @@ export default function About() {
             </div>
             <img 
               src={benSideView}
-              alt="Ben Side View"
+              alt=""
               className="xl:m-4 lg:w-2/5 lg:h-2/5 md:w-3/5 md:p-6 md:h-3/5 mt-10"
             />
           </section>
@@ -138,7 +138,7 @@ export default function About() {
             <div className="m-3">
               <img 
                 src={manToss}
-                alt="Wedding Celebration"
+                alt=""
               />
             </div>
           </section>
@@ -147,7 +147,7 @@ export default function About() {
           <section className="transition duration-500 ease-in-out transform lg:hover:scale-105 bg-white rounded-lg shadow-2xl lg:flex md:flex p-5 md:mt-10 mt-5">
             <img 
               src={amongEverything}
-              alt="Lovers Dancing"
+              alt=""
               className="items-center content-center lg:m-5 md:m-3 mb-4 lg:w-2/5 lg:h-2/5 md:w-2/5 md:h-2/5"
             />
             <div className="lg:p-16 2xl:p-16 xl:p-16">
@@ -164,7 +164,7 @@ export default function About() {
               </div>
               <br/>
               <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-              <div className="transition duration-500 ease-in-out transform hover:scale-150 lg:content-center lg:items-center text-2xl 2xl:text-4xl text-center mt-16 mb-5">
+              <div className="transition duration-500 ease-in-out transform hover:scale-110 lg:content-center lg:items-center text-2xl 2xl:text-4xl text-center mt-16 mb-5">
                   <NavLink 
                     to="/contact" 
                     className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"

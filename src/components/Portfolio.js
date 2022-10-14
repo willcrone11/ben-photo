@@ -98,7 +98,7 @@ export default function Portfolio() {
                   >
                     <SocialIcon 
                       url="https://www.instagram.com/benjaminbrittonphotography/?hl=en/" 
-                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon mr-8 transition duration-500 ease-in-out transform hover:scale-110"
                       target="_blank" 
                       fgColor="#fff" 
                       style={{ height: 75, width: 75 }}
@@ -107,7 +107,7 @@ export default function Portfolio() {
                       url="https://www.facebook.com/benjaminbrittonphotography" 
                       target="_blank" 
                       fgColor="#fff" 
-                      className="icon transition duration-500 ease-in-out transform hover:scale-150"
+                      className="icon transition duration-500 ease-in-out transform hover:scale-110"
                       style={{ height: 75, width: 75 }}
                     />
                   </div>
@@ -117,14 +117,14 @@ export default function Portfolio() {
                 <div>
                   <img 
                     src={theirMoment1}
-                    alt="Blowing Bubbles"
+                    alt=""
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
                 <div>
                   <img 
                     src={theirMoment2}
-                    alt="Bridesmaids in the forest"
+                    alt=""
                     className="items-center content-center lg:m-4 mb-4 "
                   />
                 </div>
@@ -151,7 +151,7 @@ export default function Portfolio() {
                       Katie and Corbin
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#katie-corbin" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -170,7 +170,7 @@ export default function Portfolio() {
                       Elise and Braxton
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#elise-braxton" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -189,7 +189,7 @@ export default function Portfolio() {
                       Jenna and Brian
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#jenna-brian" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -210,7 +210,7 @@ export default function Portfolio() {
                       Brick and Ashley
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#brick-ashley" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -229,7 +229,7 @@ export default function Portfolio() {
                       Shelby and Jared
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#shelby-jared" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"
@@ -248,7 +248,7 @@ export default function Portfolio() {
                       Sydney and Caleb
                     </h2>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-5" />
-                    <div className="transition duration-500 ease-in-out transform hover:scale-150 mt-10 mb-10">
+                    <div className="transition duration-500 ease-in-out transform hover:scale-110 mt-10 mb-10">
                       <Link 
                         to="/portfolio#sydney-caleb" 
                         className="bg-white border-2 border-black hover:bg-black hover:text-white p-5 m-5"

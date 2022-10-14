@@ -57,7 +57,7 @@ export default function Pricing() {
                   </h1>
                 </div>
                 <div className="xs:flex content-center items-center justify-center lg:p-3">
-                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-10 mb-16">
                     <Link 
                       to="/pricing#weddings" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1 xs:mb-0 xxs:mb-3"
@@ -65,7 +65,7 @@ export default function Pricing() {
                       Weddings
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-10 mb-16">
                     <Link 
                       to="/pricing#engagements" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-6 md:m-5 xl:m-6 m-1 xs:mb-0 xxs:mb-3"
@@ -73,7 +73,7 @@ export default function Pricing() {
                       Engagements
                     </Link>
                   </div>
-                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-150 md:hover:scale-150 xl:hover:scale-150 mt-10 mb-16">
+                  <div className="text-center transition duration-500 ease-in-out transform 2xl:hover:scale-105 lg:hover:scale-110 md:hover:scale-110 xl:hover:scale-110 mt-10 mb-16">
                     <Link 
                       to="/pricing#couples" 
                       className="2xl:text-3xl lg:text-xl md:text-xl xl:text-xl text-sm bg-white border-2 border-black hover:bg-black hover:text-white p-5 lg:m-5 md:m-5 xl:m-5 m-1"
@@ -86,7 +86,7 @@ export default function Pricing() {
               <div className="flex-column">
                 <img 
                   src={cakeKiss}
-                  alt="Cake Kiss"
+                  alt=""
                   className="items-center content-center xl:m-4 xl:p-4 mb-4"
                 />
               </div>
@@ -99,12 +99,12 @@ export default function Pricing() {
               <div className="flex-column">
                 <img 
                   src={walkingLovers}
-                  alt="Walking Lovers"
+                  alt=""
                   className="items-center content-center xl:m-4 mb-4 "
                 />
                 <img 
                   src={loversHeadTouch}
-                  alt="Wedding Sweethearts"
+                  alt=""
                   className="items-center content-center xl:m-4 mb-4 "
                 />
               </div>
@@ -135,7 +135,7 @@ export default function Pricing() {
                       Pack 2
                     </h3>
                     <h6 className="text-2xl">
-                      $1,650
+                      $1,850
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -152,7 +152,7 @@ export default function Pricing() {
                       Pack 3
                     </h3>
                     <h6 className="text-2xl">
-                      $2,000
+                      $2,200
                     </h6>
                     <hr style={{ borderTop: "solid black 1px" }} className="m-3" />
                     <ul className="text-left 2xl:text-2xl text-xl 2xl:p-4 list-disc">
@@ -171,7 +171,7 @@ export default function Pricing() {
                   <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center 2xl:text-4xl text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 lg:content-center lg:items-center 2xl:text-4xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -264,7 +264,7 @@ export default function Pricing() {
                   <h1 className="2xl:text-7xl lg:text-5xl text-3xl lg:mb-16 2xl:mb-20 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center text-xl 2xl:text-4xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 lg:content-center lg:items-center text-xl 2xl:text-4xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
@@ -277,12 +277,12 @@ export default function Pricing() {
                 <div className="flex-column">
                 <img 
                   src={holdingHands}
-                  alt="Holding Hands"
+                  alt=""
                   className="items-center content-center lg:m-4 mb-4 "
                 />
                 <img 
                   src={behindKiss}
-                  alt="Kiss From Behind"
+                  alt=""
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
@@ -295,12 +295,12 @@ export default function Pricing() {
               <div className="flex-column">
                 <img 
                   src={fallLovers}
-                  alt="Autumn Lovers"
+                  alt=""
                   className="items-center content-center lg:m-4 mb-4 "
                 />
                 <img 
                   src={loversBlanket}
-                  alt="Lovers Under a Blanket"
+                  alt=""
                   className="items-center content-center lg:m-4 mb-4 "
                 />
               </div>
@@ -365,7 +365,7 @@ export default function Pricing() {
                   <h1 className="2xl:text-6xl lg:text-5xl text-3xl lg:mb-16 mb-10">
                     Ready to Book a Session?
                   </h1>
-                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-150 lg:content-center lg:items-center 2xl:text-3xl text-xl text-center mt-5 mb-10">
+                  <div className="transition duration-500 ease-in-out transform lg:hover:scale-110 lg:content-center lg:items-center 2xl:text-3xl text-xl text-center mt-5 mb-10">
                       <NavLink 
                         to="/contact" 
                         className="animate-pulse bg-white border-2 border-black hover:bg-black hover:text-white p-5"
